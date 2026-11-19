@@ -1,0 +1,1999 @@
+{
+  "generated_at_utc": "2026-11-14T12:35:36.320543+00:00",
+  "holdout_configs_touched": 0,
+  "submission_orders": {
+    "wave1_ibm": [
+      "P2_TKET_IBM_Primary",
+      "P1_SABRE_IBM_Primary",
+      "P4_Prom_Fleet_IBM_Rung1",
+      "P3_Prom_IBM_Rung1"
+    ],
+    "wave1_iqm": [
+      "P4_Prom_Fleet_IQM_Rung1",
+      "P1_SABRE_IQM_Primary",
+      "P2_TKET_IQM_Primary",
+      "P3_Prom_IQM_Rung1"
+    ],
+    "wave2_ibm": [
+      "P4_Prom_Fleet_IBM_Confirm",
+      "P1_SABRE_IBM_Confirm",
+      "P4_Prom_Fleet_IBM_Rung2",
+      "P3_Prom_IBM_Rung2",
+      "P2_TKET_IBM_Confirm",
+      "P3_Prom_IBM_Confirm"
+    ],
+    "wave2_iqm": [
+      "P3_Prom_IQM_Rung2",
+      "P1_SABRE_IQM_Confirm",
+      "P4_Prom_Fleet_IQM_Rung2",
+      "P3_Prom_IQM_Confirm",
+      "P2_TKET_IQM_Confirm",
+      "P4_Prom_Fleet_IQM_Confirm"
+    ]
+  },
+  "h1_duration_correlation": {
+    "ibm_spearman_rho_mismatch_vs_err": -0.2594,
+    "ibm_spearman_p": 0.5003,
+    "iqm_spearman_rho_mismatch_vs_err": 0.6513,
+    "iqm_spearman_p": 0.0574,
+    "max_ibm_mismatch_ratio": 0.44,
+    "max_iqm_mismatch_ratio": 0.2038
+  },
+  "empirical_billing_summary": {
+    "ibm_jobs_count": 10,
+    "ibm_total_pubs": 178,
+    "ibm_total_settled_seconds": 56.0,
+    "manifest_v2_ibm_expected_seconds": 60.0,
+    "manifest_v2_ibm_max_seconds": 66.0,
+    "empirical_ibm_s_per_512shot_pub": 0.2951,
+    "empirical_ibm_s_per_1024shot_pub": 0.3571,
+    "iqm_jobs_count": 10,
+    "iqm_total_pubs": 175,
+    "iqm_total_settled_credits": 51.0,
+    "manifest_v2_iqm_expected_credits": 60.0,
+    "manifest_v2_iqm_max_credits": 63.75,
+    "empirical_iqm_cr_per_512shot_pub": 0.2647,
+    "empirical_iqm_cr_per_1024shot_pub": 0.3482,
+    "ibm_jobs": [
+      {
+        "job_key": "P1_SABRE_IBM_Primary",
+        "job_id": "dbs58k1abdes73fqotc0",
+        "qpu": "ibm_fez",
+        "pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "active_qpu_seconds": 8.538,
+        "settled_charged_seconds": 10.0,
+        "settled_s_per_pub": 0.3571
+      },
+      {
+        "job_key": "P2_TKET_IBM_Primary",
+        "job_id": "dbs58jhabdes73fqotag",
+        "qpu": "ibm_fez",
+        "pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "active_qpu_seconds": 8.546,
+        "settled_charged_seconds": 10.0,
+        "settled_s_per_pub": 0.3571
+      },
+      {
+        "job_key": "P3_Prom_IBM_Rung1",
+        "job_id": "dbs58l1abdes73fqotdg",
+        "qpu": "ibm_fez",
+        "pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "active_qpu_seconds": 2.56,
+        "settled_charged_seconds": 4.0,
+        "settled_s_per_pub": 0.3636
+      },
+      {
+        "job_key": "P3_Prom_IBM_Rung2",
+        "job_id": "dbs59h1abdes73fqoueg",
+        "qpu": "ibm_fez",
+        "pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "active_qpu_seconds": 2.577,
+        "settled_charged_seconds": 4.0,
+        "settled_s_per_pub": 0.3636
+      },
+      {
+        "job_key": "P4_Prom_Fleet_IBM_Rung1",
+        "job_id": "dbs58kgk09pc73avp2pg",
+        "qpu": "ibm_fez",
+        "pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "active_qpu_seconds": 2.534,
+        "settled_charged_seconds": 4.0,
+        "settled_s_per_pub": 0.3636
+      },
+      {
+        "job_key": "P4_Prom_Fleet_IBM_Rung2",
+        "job_id": "dbs59ggk09pc73avp3p0",
+        "qpu": "ibm_fez",
+        "pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "active_qpu_seconds": 2.547,
+        "settled_charged_seconds": 4.0,
+        "settled_s_per_pub": 0.3636
+      },
+      {
+        "job_key": "P1_SABRE_IBM_Confirm",
+        "job_id": "dbs59g8k09pc73avp3o0",
+        "qpu": "ibm_fez",
+        "pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "active_qpu_seconds": 4.825,
+        "settled_charged_seconds": 6.0,
+        "settled_s_per_pub": 0.2143
+      },
+      {
+        "job_key": "P2_TKET_IBM_Confirm",
+        "job_id": "dbs59hgk09pc73avp3qg",
+        "qpu": "ibm_fez",
+        "pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "active_qpu_seconds": 4.795,
+        "settled_charged_seconds": 6.0,
+        "settled_s_per_pub": 0.2143
+      },
+      {
+        "job_key": "P3_Prom_IBM_Confirm",
+        "job_id": "dbs59i1abdes73fqoug0",
+        "qpu": "ibm_fez",
+        "pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "active_qpu_seconds": 2.485,
+        "settled_charged_seconds": 4.0,
+        "settled_s_per_pub": 0.3636
+      },
+      {
+        "job_key": "P4_Prom_Fleet_IBM_Confirm",
+        "job_id": "dbs59fpabdes73fqouc0",
+        "qpu": "ibm_fez",
+        "pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "active_qpu_seconds": 2.562,
+        "settled_charged_seconds": 4.0,
+        "settled_s_per_pub": 0.3636
+      }
+    ],
+    "iqm_jobs": [
+      {
+        "job_key": "P1_SABRE_IQM_Primary",
+        "job_id": "01a1da09-97c1-7108-bd00-c5b341aa4b54",
+        "qpu": "emerald",
+        "pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "billed_seconds": 14.0,
+        "charged_credits": 10.5,
+        "credits_per_pub": 0.375
+      },
+      {
+        "job_key": "P2_TKET_IQM_Primary",
+        "job_id": "01a1da09-e552-7073-bb59-760014e8ef07",
+        "qpu": "emerald",
+        "pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "billed_seconds": 12.0,
+        "charged_credits": 9.0,
+        "credits_per_pub": 0.3214
+      },
+      {
+        "job_key": "P3_Prom_IQM_Rung1",
+        "job_id": "01a1da0a-55c7-757e-af67-342c3b7e31f0",
+        "qpu": "emerald",
+        "pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "billed_seconds": 3.0,
+        "charged_credits": 2.25,
+        "credits_per_pub": 0.2045
+      },
+      {
+        "job_key": "P3_Prom_IQM_Rung2",
+        "job_id": "01a1da0b-3a1f-71dd-8f47-f1399f70328c",
+        "qpu": "emerald",
+        "pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "billed_seconds": 6.0,
+        "charged_credits": 4.5,
+        "credits_per_pub": 0.4091
+      },
+      {
+        "job_key": "P4_Prom_Fleet_IQM_Rung1",
+        "job_id": "01a1da09-740c-77e5-879f-be411bf8fc70",
+        "qpu": "emerald",
+        "pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "billed_seconds": 3.0,
+        "charged_credits": 2.25,
+        "credits_per_pub": 0.225
+      },
+      {
+        "job_key": "P4_Prom_Fleet_IQM_Rung2",
+        "job_id": "01a1da0b-9d8f-748e-b9f3-e5ab6ae51b36",
+        "qpu": "emerald",
+        "pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "billed_seconds": 4.0,
+        "charged_credits": 3.0,
+        "credits_per_pub": 0.3
+      },
+      {
+        "job_key": "P1_SABRE_IQM_Confirm",
+        "job_id": "01a1da0b-6b2d-75a9-9a65-bc7e93c3f150",
+        "qpu": "emerald",
+        "pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "billed_seconds": 8.0,
+        "charged_credits": 6.0,
+        "credits_per_pub": 0.2143
+      },
+      {
+        "job_key": "P2_TKET_IQM_Confirm",
+        "job_id": "01a1da0b-f244-76e6-b37e-1136b3131a41",
+        "qpu": "emerald",
+        "pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "billed_seconds": 8.0,
+        "charged_credits": 6.0,
+        "credits_per_pub": 0.2143
+      },
+      {
+        "job_key": "P3_Prom_IQM_Confirm",
+        "job_id": "01a1da0b-c152-7158-95af-e2d127cd9f11",
+        "qpu": "emerald",
+        "pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "billed_seconds": 6.0,
+        "charged_credits": 4.5,
+        "credits_per_pub": 0.4091
+      },
+      {
+        "job_key": "P4_Prom_Fleet_IQM_Confirm",
+        "job_id": "01a1da0c-2611-762b-8e43-b8d1c08d6d2c",
+        "qpu": "emerald",
+        "pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "billed_seconds": 4.0,
+        "charged_credits": 3.0,
+        "credits_per_pub": 0.3
+      }
+    ]
+  },
+  "recommended_p4_fleet_mode_for_holdout": "GroupSplit_IQMZ_IBMNonZ",
+  "stopping_gate_sweep": [
+    {
+      "sigma_stop_mha": 10.0,
+      "eta_sym_min": 0.65,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 10.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 10.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 10.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 12.0,
+      "eta_sym_min": 0.65,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 12.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 12.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 12.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 15.0,
+      "eta_sym_min": 0.65,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 15.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 15.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 15.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 0,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 0,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 18.0,
+      "eta_sym_min": 0.65,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 18.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 18.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 18.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 20.0,
+      "eta_sym_min": 0.65,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 3,
+          "verified_25mha": 4,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 20.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 3,
+          "verified_25mha": 4,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 20.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 3,
+          "verified_25mha": 4,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 20.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 3,
+          "verified_25mha": 4,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 22.0,
+      "eta_sym_min": 0.65,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 3,
+          "verified_25mha": 4,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 22.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 3,
+          "verified_25mha": 4,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 22.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 3,
+          "verified_25mha": 4,
+          "false_accept_at_r1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 22.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_r1": 2,
+          "verified_25mha": 3,
+          "false_accept_at_r1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_r1": 2,
+          "verified_25mha": 2,
+          "false_accept_at_r1": 0
+        },
+        "P4_Prom_Fleet": {
+          "halted_r1": 3,
+          "verified_25mha": 4,
+          "false_accept_at_r1": 0
+        }
+      }
+    }
+  ],
+  "per_molecule_breakdown": {
+    "M_Dev_01": {
+      "species": "H2",
+      "geometry": 1.75,
+      "model_type": "JW_CAS22",
+      "n_qubits": 4,
+      "depth_tier": "Tier_1",
+      "hf_error_mha": 124.986,
+      "noiseless_circuit_error_mha": 0.0,
+      "ideal_group_contribs_ha": {
+        "Z": -0.247917,
+        "G1": -0.049594,
+        "G2": -0.049594,
+        "G3": -0.049594,
+        "G4": -0.049594
+      },
+      "policies": {
+        "P1_SABRE_IBM": {
+          "primary_abs_err_mha": 8.042,
+          "confirm_abs_err_mha": 0.98,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 11.683,
+          "z_symmetry_retention": 0.9395,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 15,
+          "max_group_depth": 9,
+          "max_tau_sched_ns": 276.0,
+          "group_abs_errors_mha": {
+            "Z": 3.164,
+            "G1": 3.014,
+            "G2": 2.831,
+            "G3": 2.211,
+            "G4": 3.15
+          }
+        },
+        "P2_TKET_IBM": {
+          "primary_abs_err_mha": 10.714,
+          "confirm_abs_err_mha": 5.656,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 12.137,
+          "z_symmetry_retention": 0.9541,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 15,
+          "max_group_depth": 10,
+          "max_tau_sched_ns": 276.0,
+          "group_abs_errors_mha": {
+            "Z": 2.423,
+            "G1": 4.171,
+            "G2": 4.279,
+            "G3": 3.04,
+            "G4": 1.647
+          }
+        },
+        "P3_Prom_IBM": {
+          "primary_abs_err_mha": 7.881,
+          "confirm_abs_err_mha": 6.492,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 11.887,
+          "z_symmetry_retention": 0.9492,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 16,
+          "max_group_depth": 12,
+          "max_tau_sched_ns": 436.0,
+          "group_abs_errors_mha": {
+            "Z": 2.058,
+            "G1": 2.338,
+            "G2": 7.179,
+            "G3": 0.565,
+            "G4": 0.144
+          }
+        },
+        "P1_SABRE_IQM": {
+          "primary_abs_err_mha": 14.365,
+          "confirm_abs_err_mha": 23.002,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 12.664,
+          "z_symmetry_retention": 0.9326,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 30,
+          "max_group_depth": 17,
+          "max_tau_sched_ns": 920.0,
+          "group_abs_errors_mha": {
+            "Z": 6.275,
+            "G1": 2.652,
+            "G2": 1.523,
+            "G3": 3.773,
+            "G4": 0.142
+          }
+        },
+        "P2_TKET_IQM": {
+          "primary_abs_err_mha": 16.746,
+          "confirm_abs_err_mha": 20.161,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 12.201,
+          "z_symmetry_retention": 0.9316,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 30,
+          "max_group_depth": 17,
+          "max_tau_sched_ns": 880.0,
+          "group_abs_errors_mha": {
+            "Z": 4.687,
+            "G1": 2.849,
+            "G2": 3.58,
+            "G3": 3.331,
+            "G4": 2.299
+          }
+        },
+        "P3_Prom_IQM": {
+          "primary_abs_err_mha": 12.752,
+          "confirm_abs_err_mha": 1.138,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 12.358,
+          "z_symmetry_retention": 0.9531,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 20,
+          "max_group_depth": 14,
+          "max_tau_sched_ns": 720.0,
+          "group_abs_errors_mha": {
+            "Z": 0.164,
+            "G1": 6.379,
+            "G2": 2.967,
+            "G3": 3.131,
+            "G4": 0.44
+          }
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "primary_abs_err_mha": 5.358,
+          "confirm_abs_err_mha": 23.722,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 12.096,
+          "z_symmetry_retention": 0.9531,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 16,
+          "max_group_depth": 14,
+          "max_tau_sched_ns": 720.0,
+          "group_abs_errors_mha": {
+            "Z": 1.257,
+            "G1": 1.9,
+            "G2": 1.417,
+            "G3": 2.978,
+            "G4": 0.32
+          }
+        }
+      }
+    },
+    "M_Dev_02": {
+      "species": "BeH2",
+      "geometry": 2.05,
+      "model_type": "DOCI",
+      "n_qubits": 4,
+      "depth_tier": "Tier_1",
+      "hf_error_mha": 31.489,
+      "noiseless_circuit_error_mha": 2.062,
+      "ideal_group_contribs_ha": {
+        "Z": -1.148224,
+        "X": -0.025298,
+        "Y": -0.025298
+      },
+      "policies": {
+        "P1_SABRE_IBM": {
+          "primary_abs_err_mha": 15.21,
+          "confirm_abs_err_mha": 7.54,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 12.608,
+          "z_symmetry_retention": 0.9326,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 27,
+          "max_group_depth": 38,
+          "max_tau_sched_ns": 972.0,
+          "group_abs_errors_mha": {
+            "Z": 11.896,
+            "X": 1.574,
+            "Y": 2.825
+          }
+        },
+        "P2_TKET_IBM": {
+          "primary_abs_err_mha": 12.964,
+          "confirm_abs_err_mha": 10.15,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 12.153,
+          "z_symmetry_retention": 0.9297,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 27,
+          "max_group_depth": 35,
+          "max_tau_sched_ns": 900.0,
+          "group_abs_errors_mha": {
+            "Z": 4.275,
+            "X": 5.201,
+            "Y": 1.425
+          }
+        },
+        "P3_Prom_IBM": {
+          "primary_abs_err_mha": 10.108,
+          "confirm_abs_err_mha": 12.628,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 12.391,
+          "z_symmetry_retention": 0.9453,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 24,
+          "max_group_depth": 35,
+          "max_tau_sched_ns": 900.0,
+          "group_abs_errors_mha": {
+            "Z": 6.733,
+            "X": 2.284,
+            "Y": 3.595
+          }
+        },
+        "P1_SABRE_IQM": {
+          "primary_abs_err_mha": 11.166,
+          "confirm_abs_err_mha": 19.005,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 11.931,
+          "z_symmetry_retention": 0.9268,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 18,
+          "max_group_depth": 14,
+          "max_tau_sched_ns": 720.0,
+          "group_abs_errors_mha": {
+            "Z": 3.696,
+            "X": 4.133,
+            "Y": 1.274
+          }
+        },
+        "P2_TKET_IQM": {
+          "primary_abs_err_mha": 4.474,
+          "confirm_abs_err_mha": 15.124,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 11.386,
+          "z_symmetry_retention": 0.9424,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 18,
+          "max_group_depth": 14,
+          "max_tau_sched_ns": 720.0,
+          "group_abs_errors_mha": {
+            "Z": 0.953,
+            "X": 1.757,
+            "Y": 5.121
+          }
+        },
+        "P3_Prom_IQM": {
+          "primary_abs_err_mha": 10.996,
+          "confirm_abs_err_mha": 4.087,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 11.996,
+          "z_symmetry_retention": 0.9238,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 18,
+          "max_group_depth": 14,
+          "max_tau_sched_ns": 720.0,
+          "group_abs_errors_mha": {
+            "Z": 0.123,
+            "X": 0.855,
+            "Y": 8.201
+          }
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "primary_abs_err_mha": 10.314,
+          "confirm_abs_err_mha": 21.659,
+          "primary_met_25mha": true,
+          "both_met_25mha": true,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 12.013,
+          "z_symmetry_retention": 0.9277,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 24,
+          "max_group_depth": 33,
+          "max_tau_sched_ns": 900.0,
+          "group_abs_errors_mha": {
+            "Z": 6.642,
+            "X": 4.171,
+            "Y": 5.78
+          }
+        }
+      }
+    },
+    "M_Dev_03": {
+      "species": "H4_rect",
+      "geometry": 85.0,
+      "model_type": "DOCI",
+      "n_qubits": 4,
+      "depth_tier": "Tier_2",
+      "hf_error_mha": 47.13,
+      "noiseless_circuit_error_mha": 0.575,
+      "ideal_group_contribs_ha": {
+        "Z": -1.976506,
+        "X": -0.036038,
+        "Y": -0.036038
+      },
+      "policies": {
+        "P1_SABRE_IBM": {
+          "primary_abs_err_mha": 37.289,
+          "confirm_abs_err_mha": 36.443,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 21.269,
+          "z_symmetry_retention": 0.9033,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 60,
+          "max_group_depth": 71,
+          "max_tau_sched_ns": 2008.0,
+          "group_abs_errors_mha": {
+            "Z": 28.952,
+            "X": 4.602,
+            "Y": 3.161
+          }
+        },
+        "P2_TKET_IBM": {
+          "primary_abs_err_mha": 16.911,
+          "confirm_abs_err_mha": 42.31,
+          "primary_met_25mha": true,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 17.087,
+          "z_symmetry_retention": 0.8936,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 60,
+          "max_group_depth": 67,
+          "max_tau_sched_ns": 1984.0,
+          "group_abs_errors_mha": {
+            "Z": 11.695,
+            "X": 1.239,
+            "Y": 5.88
+          }
+        },
+        "P3_Prom_IBM": {
+          "primary_abs_err_mha": 25.041,
+          "confirm_abs_err_mha": 28.404,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 18.602,
+          "z_symmetry_retention": 0.8955,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 60,
+          "max_group_depth": 66,
+          "max_tau_sched_ns": 1960.0,
+          "group_abs_errors_mha": {
+            "Z": 11.357,
+            "X": 10.34,
+            "Y": 2.77
+          }
+        },
+        "P1_SABRE_IQM": {
+          "primary_abs_err_mha": 24.015,
+          "confirm_abs_err_mha": 59.79,
+          "primary_met_25mha": true,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 19.031,
+          "z_symmetry_retention": 0.8604,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 42,
+          "max_group_depth": 38,
+          "max_tau_sched_ns": 2000.0,
+          "group_abs_errors_mha": {
+            "Z": 17.718,
+            "X": 2.604,
+            "Y": 3.119
+          }
+        },
+        "P2_TKET_IQM": {
+          "primary_abs_err_mha": 29.809,
+          "confirm_abs_err_mha": 32.168,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 20.43,
+          "z_symmetry_retention": 0.9004,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 42,
+          "max_group_depth": 38,
+          "max_tau_sched_ns": 2000.0,
+          "group_abs_errors_mha": {
+            "Z": 24.028,
+            "X": 3.712,
+            "Y": 1.494
+          }
+        },
+        "P3_Prom_IQM": {
+          "primary_abs_err_mha": 34.341,
+          "confirm_abs_err_mha": 15.222,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 21.264,
+          "z_symmetry_retention": 0.8682,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 42,
+          "max_group_depth": 38,
+          "max_tau_sched_ns": 2000.0,
+          "group_abs_errors_mha": {
+            "Z": 28.138,
+            "X": 0.048,
+            "Y": 5.676
+          }
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "primary_abs_err_mha": 10.752,
+          "confirm_abs_err_mha": 38.461,
+          "primary_met_25mha": true,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 16.098,
+          "z_symmetry_retention": 0.8574,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 54,
+          "max_group_depth": 67,
+          "max_tau_sched_ns": 2000.0,
+          "group_abs_errors_mha": {
+            "Z": 8.899,
+            "X": 1.923,
+            "Y": 0.645
+          }
+        }
+      }
+    },
+    "M_Dev_04": {
+      "species": "BeH2",
+      "geometry": 2.3,
+      "model_type": "DOCI",
+      "n_qubits": 6,
+      "depth_tier": "Tier_1",
+      "hf_error_mha": 51.634,
+      "noiseless_circuit_error_mha": 2.791,
+      "ideal_group_contribs_ha": {
+        "Z": -6.485764,
+        "X": -0.039717,
+        "Y": -0.039717
+      },
+      "policies": {
+        "P1_SABRE_IBM": {
+          "primary_abs_err_mha": 227.95,
+          "confirm_abs_err_mha": 233.186,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 105.286,
+          "z_symmetry_retention": 0.7861,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 78,
+          "max_group_depth": 63,
+          "max_tau_sched_ns": 1916.0,
+          "group_abs_errors_mha": {
+            "Z": 197.786,
+            "X": 12.898,
+            "Y": 14.476
+          }
+        },
+        "P2_TKET_IBM": {
+          "primary_abs_err_mha": 82.135,
+          "confirm_abs_err_mha": 56.28,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 60.054,
+          "z_symmetry_retention": 0.7861,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 72,
+          "max_group_depth": 51,
+          "max_tau_sched_ns": 1320.0,
+          "group_abs_errors_mha": {
+            "Z": 65.054,
+            "X": 8.407,
+            "Y": 5.885
+          }
+        },
+        "P3_Prom_IBM": {
+          "primary_abs_err_mha": 139.387,
+          "confirm_abs_err_mha": 57.602,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 79.248,
+          "z_symmetry_retention": 0.792,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 71,
+          "max_group_depth": 53,
+          "max_tau_sched_ns": 1616.0,
+          "group_abs_errors_mha": {
+            "Z": 132.763,
+            "X": 1.307,
+            "Y": 2.527
+          }
+        },
+        "P1_SABRE_IQM": {
+          "primary_abs_err_mha": 49.339,
+          "confirm_abs_err_mha": 68.904,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 39.613,
+          "z_symmetry_retention": 0.8457,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 51,
+          "max_group_depth": 32,
+          "max_tau_sched_ns": 1720.0,
+          "group_abs_errors_mha": {
+            "Z": 29.733,
+            "X": 6.86,
+            "Y": 9.955
+          }
+        },
+        "P2_TKET_IQM": {
+          "primary_abs_err_mha": 60.056,
+          "confirm_abs_err_mha": 94.348,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 48.789,
+          "z_symmetry_retention": 0.8037,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 57,
+          "max_group_depth": 35,
+          "max_tau_sched_ns": 1840.0,
+          "group_abs_errors_mha": {
+            "Z": 47.799,
+            "X": 2.813,
+            "Y": 6.653
+          }
+        },
+        "P3_Prom_IQM": {
+          "primary_abs_err_mha": 69.002,
+          "confirm_abs_err_mha": 58.304,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 55.672,
+          "z_symmetry_retention": 0.8389,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 51,
+          "max_group_depth": 32,
+          "max_tau_sched_ns": 1720.0,
+          "group_abs_errors_mha": {
+            "Z": 51.994,
+            "X": 7.683,
+            "Y": 6.535
+          }
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "primary_abs_err_mha": 36.483,
+          "confirm_abs_err_mha": 71.742,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 39.188,
+          "z_symmetry_retention": 0.8477,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 64,
+          "max_group_depth": 58,
+          "max_tau_sched_ns": 1720.0,
+          "group_abs_errors_mha": {
+            "Z": 29.642,
+            "X": 1.462,
+            "Y": 2.59
+          }
+        }
+      }
+    },
+    "M_Dev_05": {
+      "species": "H6_chain",
+      "geometry": 1.48,
+      "model_type": "DOCI",
+      "n_qubits": 6,
+      "depth_tier": "Tier_2",
+      "hf_error_mha": 56.768,
+      "noiseless_circuit_error_mha": 0.126,
+      "ideal_group_contribs_ha": {
+        "Z": -1.896934,
+        "X": -0.046358,
+        "Y": -0.046358
+      },
+      "policies": {
+        "P1_SABRE_IBM": {
+          "primary_abs_err_mha": 121.52,
+          "confirm_abs_err_mha": 129.706,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 33.958,
+          "z_symmetry_retention": 0.6064,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 159,
+          "max_group_depth": 128,
+          "max_tau_sched_ns": 3808.0,
+          "group_abs_errors_mha": {
+            "Z": 100.57,
+            "X": 18.871,
+            "Y": 1.951
+          }
+        },
+        "P2_TKET_IBM": {
+          "primary_abs_err_mha": 139.157,
+          "confirm_abs_err_mha": 218.937,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 38.419,
+          "z_symmetry_retention": 0.5205,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 159,
+          "max_group_depth": 121,
+          "max_tau_sched_ns": 3760.0,
+          "group_abs_errors_mha": {
+            "Z": 112.93,
+            "X": 12.735,
+            "Y": 13.365
+          }
+        },
+        "P3_Prom_IBM": {
+          "primary_abs_err_mha": 155.668,
+          "confirm_abs_err_mha": 142.958,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 40.56,
+          "z_symmetry_retention": 0.5244,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 156,
+          "max_group_depth": 123,
+          "max_tau_sched_ns": 3784.0,
+          "group_abs_errors_mha": {
+            "Z": 147.507,
+            "X": 0.336,
+            "Y": 7.698
+          }
+        },
+        "P1_SABRE_IQM": {
+          "primary_abs_err_mha": 79.657,
+          "confirm_abs_err_mha": 74.11,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 28.322,
+          "z_symmetry_retention": 0.7197,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 93,
+          "max_group_depth": 64,
+          "max_tau_sched_ns": 3480.0,
+          "group_abs_errors_mha": {
+            "Z": 63.89,
+            "X": 8.319,
+            "Y": 7.321
+          }
+        },
+        "P2_TKET_IQM": {
+          "primary_abs_err_mha": 51.935,
+          "confirm_abs_err_mha": 58.208,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 26.464,
+          "z_symmetry_retention": 0.7148,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 102,
+          "max_group_depth": 78,
+          "max_tau_sched_ns": 4160.0,
+          "group_abs_errors_mha": {
+            "Z": 41.894,
+            "X": 0.775,
+            "Y": 9.14
+          }
+        },
+        "P3_Prom_IQM": {
+          "primary_abs_err_mha": 55.061,
+          "confirm_abs_err_mha": 40.727,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 25.835,
+          "z_symmetry_retention": 0.7246,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 93,
+          "max_group_depth": 64,
+          "max_tau_sched_ns": 3480.0,
+          "group_abs_errors_mha": {
+            "Z": 51.205,
+            "X": 2.024,
+            "Y": 1.705
+          }
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "primary_abs_err_mha": 52.354,
+          "confirm_abs_err_mha": 84.438,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 24.852,
+          "z_symmetry_retention": 0.7227,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 134,
+          "max_group_depth": 116,
+          "max_tau_sched_ns": 3712.0,
+          "group_abs_errors_mha": {
+            "Z": 30.126,
+            "X": 15.869,
+            "Y": 6.231
+          }
+        }
+      }
+    },
+    "M_Dev_06": {
+      "species": "H2O",
+      "geometry": 1.7,
+      "model_type": "DOCI",
+      "n_qubits": 6,
+      "depth_tier": "Tier_2",
+      "hf_error_mha": 132.829,
+      "noiseless_circuit_error_mha": 0.408,
+      "ideal_group_contribs_ha": {
+        "Z": -4.274316,
+        "X": -0.113135,
+        "Y": -0.113135
+      },
+      "policies": {
+        "P1_SABRE_IBM": {
+          "primary_abs_err_mha": 261.907,
+          "confirm_abs_err_mha": 155.737,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 51.949,
+          "z_symmetry_retention": 0.5586,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 153,
+          "max_group_depth": 110,
+          "max_tau_sched_ns": 3188.0,
+          "group_abs_errors_mha": {
+            "Z": 173.64,
+            "X": 54.955,
+            "Y": 32.906
+          }
+        },
+        "P2_TKET_IBM": {
+          "primary_abs_err_mha": 143.782,
+          "confirm_abs_err_mha": 157.593,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 36.003,
+          "z_symmetry_retention": 0.5938,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 153,
+          "max_group_depth": 105,
+          "max_tau_sched_ns": 3188.0,
+          "group_abs_errors_mha": {
+            "Z": 85.044,
+            "X": 26.947,
+            "Y": 31.384
+          }
+        },
+        "P3_Prom_IBM": {
+          "primary_abs_err_mha": 110.3,
+          "confirm_abs_err_mha": 86.933,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 37.896,
+          "z_symmetry_retention": 0.6123,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 138,
+          "max_group_depth": 98,
+          "max_tau_sched_ns": 3044.0,
+          "group_abs_errors_mha": {
+            "Z": 68.23,
+            "X": 18.538,
+            "Y": 23.125
+          }
+        },
+        "P1_SABRE_IQM": {
+          "primary_abs_err_mha": 82.508,
+          "confirm_abs_err_mha": 58.933,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 31.321,
+          "z_symmetry_retention": 0.7051,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 102,
+          "max_group_depth": 70,
+          "max_tau_sched_ns": 3840.0,
+          "group_abs_errors_mha": {
+            "Z": 34.966,
+            "X": 26.236,
+            "Y": 20.9
+          }
+        },
+        "P2_TKET_IQM": {
+          "primary_abs_err_mha": 101.858,
+          "confirm_abs_err_mha": 135.18,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 32.747,
+          "z_symmetry_retention": 0.707,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 102,
+          "max_group_depth": 78,
+          "max_tau_sched_ns": 4160.0,
+          "group_abs_errors_mha": {
+            "Z": 50.826,
+            "X": 25.712,
+            "Y": 24.913
+          }
+        },
+        "P3_Prom_IQM": {
+          "primary_abs_err_mha": 75.682,
+          "confirm_abs_err_mha": 97.666,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 30.004,
+          "z_symmetry_retention": 0.6953,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 100,
+          "max_group_depth": 76,
+          "max_tau_sched_ns": 4080.0,
+          "group_abs_errors_mha": {
+            "Z": 26.792,
+            "X": 17.578,
+            "Y": 30.906
+          }
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "primary_abs_err_mha": 105.595,
+          "confirm_abs_err_mha": 94.839,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 33.033,
+          "z_symmetry_retention": 0.7178,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 123,
+          "max_group_depth": 101,
+          "max_tau_sched_ns": 4080.0,
+          "group_abs_errors_mha": {
+            "Z": 62.172,
+            "X": 22.551,
+            "Y": 20.466
+          }
+        }
+      }
+    },
+    "M_Dev_07": {
+      "species": "N2",
+      "geometry": 1.7,
+      "model_type": "DOCI",
+      "n_qubits": 6,
+      "depth_tier": "Tier_1",
+      "hf_error_mha": 732.122,
+      "noiseless_circuit_error_mha": 0.084,
+      "ideal_group_contribs_ha": {
+        "Z": -1.733896,
+        "X": -0.258232,
+        "Y": -0.258232
+      },
+      "policies": {
+        "P1_SABRE_IBM": {
+          "primary_abs_err_mha": 109.014,
+          "confirm_abs_err_mha": 91.327,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 27.964,
+          "z_symmetry_retention": 0.6992,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 84,
+          "max_group_depth": 65,
+          "max_tau_sched_ns": 1940.0,
+          "group_abs_errors_mha": {
+            "Z": 17.625,
+            "X": 46.747,
+            "Y": 44.558
+          }
+        },
+        "P2_TKET_IBM": {
+          "primary_abs_err_mha": 80.127,
+          "confirm_abs_err_mha": 69.414,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 25.55,
+          "z_symmetry_retention": 0.793,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 78,
+          "max_group_depth": 50,
+          "max_tau_sched_ns": 1296.0,
+          "group_abs_errors_mha": {
+            "Z": 14.409,
+            "X": 26.331,
+            "Y": 39.303
+          }
+        },
+        "P3_Prom_IBM": {
+          "primary_abs_err_mha": 30.209,
+          "confirm_abs_err_mha": 45.003,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 24.358,
+          "z_symmetry_retention": 0.7793,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 77,
+          "max_group_depth": 54,
+          "max_tau_sched_ns": 1640.0,
+          "group_abs_errors_mha": {
+            "Z": 4.943,
+            "X": 12.041,
+            "Y": 23.027
+          }
+        },
+        "P1_SABRE_IQM": {
+          "primary_abs_err_mha": 75.399,
+          "confirm_abs_err_mha": 74.075,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 24.309,
+          "z_symmetry_retention": 0.8086,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 57,
+          "max_group_depth": 33,
+          "max_tau_sched_ns": 1760.0,
+          "group_abs_errors_mha": {
+            "Z": 14.016,
+            "X": 31.738,
+            "Y": 29.561
+          }
+        },
+        "P2_TKET_IQM": {
+          "primary_abs_err_mha": 86.674,
+          "confirm_abs_err_mha": 72.138,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 25.005,
+          "z_symmetry_retention": 0.8369,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 57,
+          "max_group_depth": 35,
+          "max_tau_sched_ns": 1840.0,
+          "group_abs_errors_mha": {
+            "Z": 9.524,
+            "X": 39.161,
+            "Y": 37.905
+          }
+        },
+        "P3_Prom_IQM": {
+          "primary_abs_err_mha": 47.356,
+          "confirm_abs_err_mha": 73.764,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 22.709,
+          "z_symmetry_retention": 0.8242,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 57,
+          "max_group_depth": 35,
+          "max_tau_sched_ns": 1840.0,
+          "group_abs_errors_mha": {
+            "Z": 10.433,
+            "X": 33.514,
+            "Y": 24.191
+          }
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "primary_abs_err_mha": 58.65,
+          "confirm_abs_err_mha": 53.355,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 24.438,
+          "z_symmetry_retention": 0.8291,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 70,
+          "max_group_depth": 58,
+          "max_tau_sched_ns": 1760.0,
+          "group_abs_errors_mha": {
+            "Z": 11.208,
+            "X": 38.628,
+            "Y": 8.73
+          }
+        }
+      }
+    },
+    "M_Dev_08": {
+      "species": "H8_chain",
+      "geometry": 1.48,
+      "model_type": "DOCI",
+      "n_qubits": 8,
+      "depth_tier": "Tier_2",
+      "hf_error_mha": 51.801,
+      "noiseless_circuit_error_mha": 0.995,
+      "ideal_group_contribs_ha": {
+        "Z": -2.464831,
+        "X": -0.040605,
+        "Y": -0.040605
+      },
+      "policies": {
+        "P1_SABRE_IBM": {
+          "primary_abs_err_mha": 268.008,
+          "confirm_abs_err_mha": 269.13,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 51.264,
+          "z_symmetry_retention": 0.5,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 198,
+          "max_group_depth": 160,
+          "max_tau_sched_ns": 4688.0,
+          "group_abs_errors_mha": {
+            "Z": 234.054,
+            "X": 18.278,
+            "Y": 14.682
+          }
+        },
+        "P2_TKET_IBM": {
+          "primary_abs_err_mha": 246.807,
+          "confirm_abs_err_mha": 240.757,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 51.552,
+          "z_symmetry_retention": 0.5234,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 198,
+          "max_group_depth": 158,
+          "max_tau_sched_ns": 4616.0,
+          "group_abs_errors_mha": {
+            "Z": 209.85,
+            "X": 18.082,
+            "Y": 17.881
+          }
+        },
+        "P3_Prom_IBM": {
+          "primary_abs_err_mha": 340.081,
+          "confirm_abs_err_mha": 303.482,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 58.972,
+          "z_symmetry_retention": 0.4238,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 217,
+          "max_group_depth": 183,
+          "max_tau_sched_ns": 5720.0,
+          "group_abs_errors_mha": {
+            "Z": 306.735,
+            "X": 14.718,
+            "Y": 17.635
+          }
+        },
+        "P1_SABRE_IQM": {
+          "primary_abs_err_mha": 187.475,
+          "confirm_abs_err_mha": 184.653,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 43.424,
+          "z_symmetry_retention": 0.5117,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 132,
+          "max_group_depth": 98,
+          "max_tau_sched_ns": 5280.0,
+          "group_abs_errors_mha": {
+            "Z": 164.252,
+            "X": 12.813,
+            "Y": 9.416
+          }
+        },
+        "P2_TKET_IQM": {
+          "primary_abs_err_mha": 353.843,
+          "confirm_abs_err_mha": 385.992,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": true,
+          "hw975_mha": 65.36,
+          "z_symmetry_retention": 0.4004,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 168,
+          "max_group_depth": 125,
+          "max_tau_sched_ns": 6640.0,
+          "group_abs_errors_mha": {
+            "Z": 353.613,
+            "X": 1.471,
+            "Y": 2.235
+          }
+        },
+        "P3_Prom_IQM": {
+          "primary_abs_err_mha": 224.316,
+          "confirm_abs_err_mha": 203.084,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 49.203,
+          "z_symmetry_retention": 0.5215,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 147,
+          "max_group_depth": 115,
+          "max_tau_sched_ns": 6280.0,
+          "group_abs_errors_mha": {
+            "Z": 186.416,
+            "X": 10.034,
+            "Y": 26.873
+          }
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "primary_abs_err_mha": 160.159,
+          "confirm_abs_err_mha": 201.35,
+          "primary_met_25mha": false,
+          "both_met_25mha": false,
+          "halted_at_rung1": false,
+          "service_declared_complete": false,
+          "hw975_mha": 41.613,
+          "z_symmetry_retention": 0.5703,
+          "shots_per_group_used": 1024,
+          "total_native_2q_across_groups": 176,
+          "max_group_depth": 156,
+          "max_tau_sched_ns": 5200.0,
+          "group_abs_errors_mha": {
+            "Z": 144.621,
+            "X": 8.01,
+            "Y": 6.534
+          }
+        }
+      }
+    }
+  }
+}

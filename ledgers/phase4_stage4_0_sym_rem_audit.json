@@ -1,0 +1,2510 @@
+{
+  "schema_version": "phase4-stage4-0-sym-rem-calibration-v1",
+  "generated_at_utc": "2026-11-14T12:42:24.080135+00:00",
+  "holdout_configs_touched": 0,
+  "free_fitted_parameters": 0,
+  "sym_rem_policy_summaries": {
+    "P1_SABRE_IBM": {
+      "primary_verified_25mha_count": 5,
+      "confirmed_verified_25mha_count": 4,
+      "primary_verified_15mha_count": 4,
+      "primary_verified_20mha_count": 4,
+      "primary_verified_35mha_count": 6,
+      "median_abs_error_mha": 13.749,
+      "mean_abs_error_mha": 33.815,
+      "ibm_billed_seconds_total": 16.0,
+      "iqm_billed_credits_total": 0.0,
+      "ibm_seconds_per_confirmed_25mha": 4.0,
+      "iqm_credits_per_confirmed_25mha": 0.0,
+      "molecules": {
+        "M_Dev_01": {
+          "primary": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.97079377,
+            "abs_error_sym_rem_mha": 4.459,
+            "se_sym_rem_mha": 5.863,
+            "hw975_sym_rem_mha": 13.141,
+            "z_symmetry_retention": 0.9395,
+            "inferred_p_surv": 0.945,
+            "inferred_sector_signal_alpha": 0.9854,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.96703754,
+            "abs_error_sym_rem_mha": 0.703,
+            "se_sym_rem_mha": 8.082,
+            "hw975_sym_rem_mha": 18.115,
+            "z_symmetry_retention": 0.9609,
+            "inferred_p_surv": 0.9924,
+            "inferred_sector_signal_alpha": 0.998,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_02": {
+          "primary": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.36529218,
+            "abs_error_sym_rem_mha": 0.439,
+            "se_sym_rem_mha": 6.536,
+            "hw975_sym_rem_mha": 14.649,
+            "z_symmetry_retention": 0.9326,
+            "inferred_p_surv": 0.9291,
+            "inferred_sector_signal_alpha": 0.9715,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.36949376,
+            "abs_error_sym_rem_mha": 3.763,
+            "se_sym_rem_mha": 8.029,
+            "hw975_sym_rem_mha": 17.997,
+            "z_symmetry_retention": 0.916,
+            "inferred_p_surv": 0.8997,
+            "inferred_sector_signal_alpha": 0.959,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_03": {
+          "primary": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.9028828,
+            "abs_error_sym_rem_mha": 6.879,
+            "se_sym_rem_mha": 7.302,
+            "hw975_sym_rem_mha": 16.366,
+            "z_symmetry_retention": 0.9033,
+            "inferred_p_surv": 0.8685,
+            "inferred_sector_signal_alpha": 0.9454,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.89844786,
+            "abs_error_sym_rem_mha": 2.444,
+            "se_sym_rem_mha": 9.994,
+            "hw975_sym_rem_mha": 22.4,
+            "z_symmetry_retention": 0.9141,
+            "inferred_p_surv": 0.8948,
+            "inferred_sector_signal_alpha": 0.9568,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_04": {
+          "primary": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.26658976,
+            "abs_error_sym_rem_mha": 20.619,
+            "se_sym_rem_mha": 7.676,
+            "hw975_sym_rem_mha": 17.205,
+            "z_symmetry_retention": 0.7861,
+            "inferred_p_surv": 0.7956,
+            "inferred_sector_signal_alpha": 0.9188,
+            "verified_25mha_met": true,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.27358727,
+            "abs_error_sym_rem_mha": 13.622,
+            "se_sym_rem_mha": 11.021,
+            "hw975_sym_rem_mha": 24.702,
+            "z_symmetry_retention": 0.7715,
+            "inferred_p_surv": 0.7668,
+            "inferred_sector_signal_alpha": 0.9056,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_05": {
+          "primary": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.85710701,
+            "abs_error_sym_rem_mha": 32.852,
+            "se_sym_rem_mha": 16.464,
+            "hw975_sym_rem_mha": 36.902,
+            "z_symmetry_retention": 0.6064,
+            "inferred_p_surv": 0.4935,
+            "inferred_sector_signal_alpha": 0.7391,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.81417901,
+            "abs_error_sym_rem_mha": 10.076,
+            "se_sym_rem_mha": 20.219,
+            "hw975_sym_rem_mha": 45.319,
+            "z_symmetry_retention": 0.6426,
+            "inferred_p_surv": 0.5507,
+            "inferred_sector_signal_alpha": 0.7816,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_06": {
+          "primary": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.56946868,
+            "abs_error_sym_rem_mha": 136.063,
+            "se_sym_rem_mha": 42.237,
+            "hw975_sym_rem_mha": 94.669,
+            "z_symmetry_retention": 0.5586,
+            "inferred_p_surv": 0.4766,
+            "inferred_sector_signal_alpha": 0.7869,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.52058883,
+            "abs_error_sym_rem_mha": 184.943,
+            "se_sym_rem_mha": 53.133,
+            "hw975_sym_rem_mha": 119.093,
+            "z_symmetry_retention": 0.582,
+            "inferred_p_surv": 0.4979,
+            "inferred_sector_signal_alpha": 0.8032,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_07": {
+          "primary": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.35555681,
+            "abs_error_sym_rem_mha": 69.181,
+            "se_sym_rem_mha": 22.205,
+            "hw975_sym_rem_mha": 49.771,
+            "z_symmetry_retention": 0.6992,
+            "inferred_p_surv": 0.6313,
+            "inferred_sector_signal_alpha": 0.8353,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.36383227,
+            "abs_error_sym_rem_mha": 60.905,
+            "se_sym_rem_mha": 27.749,
+            "hw975_sym_rem_mha": 62.196,
+            "z_symmetry_retention": 0.7422,
+            "inferred_p_surv": 0.6951,
+            "inferred_sector_signal_alpha": 0.8717,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_08": {
+          "primary": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.74686941,
+            "abs_error_sym_rem_mha": 0.026,
+            "se_sym_rem_mha": 19.42,
+            "hw975_sym_rem_mha": 43.529,
+            "z_symmetry_retention": 0.5,
+            "inferred_p_surv": 0.4105,
+            "inferred_sector_signal_alpha": 0.6782,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.77872022,
+            "abs_error_sym_rem_mha": 31.877,
+            "se_sym_rem_mha": 24.346,
+            "hw975_sym_rem_mha": 54.57,
+            "z_symmetry_retention": 0.502,
+            "inferred_p_surv": 0.4103,
+            "inferred_sector_signal_alpha": 0.6793,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": false
+        }
+      }
+    },
+    "P2_TKET_IBM": {
+      "primary_verified_25mha_count": 5,
+      "confirmed_verified_25mha_count": 5,
+      "primary_verified_15mha_count": 4,
+      "primary_verified_20mha_count": 4,
+      "primary_verified_35mha_count": 5,
+      "median_abs_error_mha": 14.744,
+      "mean_abs_error_mha": 44.937,
+      "ibm_billed_seconds_total": 16.0,
+      "iqm_billed_credits_total": 0.0,
+      "ibm_seconds_per_confirmed_25mha": 3.2,
+      "iqm_credits_per_confirmed_25mha": 0.0,
+      "molecules": {
+        "M_Dev_01": {
+          "primary": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.96309105,
+            "abs_error_sym_rem_mha": 3.243,
+            "se_sym_rem_mha": 6.063,
+            "hw975_sym_rem_mha": 13.589,
+            "z_symmetry_retention": 0.9541,
+            "inferred_p_surv": 0.966,
+            "inferred_sector_signal_alpha": 0.9911,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.96581065,
+            "abs_error_sym_rem_mha": 0.524,
+            "se_sym_rem_mha": 8.295,
+            "hw975_sym_rem_mha": 18.593,
+            "z_symmetry_retention": 0.9551,
+            "inferred_p_surv": 0.9768,
+            "inferred_sector_signal_alpha": 0.9939,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_02": {
+          "primary": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.37147927,
+            "abs_error_sym_rem_mha": 5.748,
+            "se_sym_rem_mha": 5.704,
+            "hw975_sym_rem_mha": 12.785,
+            "z_symmetry_retention": 0.9297,
+            "inferred_p_surv": 0.9119,
+            "inferred_sector_signal_alpha": 0.9645,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.36954474,
+            "abs_error_sym_rem_mha": 3.814,
+            "se_sym_rem_mha": 7.69,
+            "hw975_sym_rem_mha": 17.236,
+            "z_symmetry_retention": 0.9375,
+            "inferred_p_surv": 0.9262,
+            "inferred_sector_signal_alpha": 0.9705,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_03": {
+          "primary": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.89927189,
+            "abs_error_sym_rem_mha": 3.268,
+            "se_sym_rem_mha": 8.509,
+            "hw975_sym_rem_mha": 19.073,
+            "z_symmetry_retention": 0.8936,
+            "inferred_p_surv": 0.8583,
+            "inferred_sector_signal_alpha": 0.9405,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.89582497,
+            "abs_error_sym_rem_mha": 0.179,
+            "se_sym_rem_mha": 9.841,
+            "hw975_sym_rem_mha": 22.058,
+            "z_symmetry_retention": 0.9004,
+            "inferred_p_surv": 0.8882,
+            "inferred_sector_signal_alpha": 0.9534,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_04": {
+          "primary": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.26347001,
+            "abs_error_sym_rem_mha": 23.739,
+            "se_sym_rem_mha": 8.18,
+            "hw975_sym_rem_mha": 18.335,
+            "z_symmetry_retention": 0.7861,
+            "inferred_p_surv": 0.7664,
+            "inferred_sector_signal_alpha": 0.9071,
+            "verified_25mha_met": true,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.26834024,
+            "abs_error_sym_rem_mha": 18.869,
+            "se_sym_rem_mha": 11.282,
+            "hw975_sym_rem_mha": 25.288,
+            "z_symmetry_retention": 0.7871,
+            "inferred_p_surv": 0.7786,
+            "inferred_sector_signal_alpha": 0.9121,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_05": {
+          "primary": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.86409283,
+            "abs_error_sym_rem_mha": 39.838,
+            "se_sym_rem_mha": 10.576,
+            "hw975_sym_rem_mha": 23.705,
+            "z_symmetry_retention": 0.5205,
+            "inferred_p_surv": 0.3279,
+            "inferred_sector_signal_alpha": 0.5966,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.87108405,
+            "abs_error_sym_rem_mha": 46.829,
+            "se_sym_rem_mha": 30.454,
+            "hw975_sym_rem_mha": 68.26,
+            "z_symmetry_retention": 0.5332,
+            "inferred_p_surv": 0.3447,
+            "inferred_sector_signal_alpha": 0.616,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_06": {
+          "primary": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.48442767,
+            "abs_error_sym_rem_mha": 221.104,
+            "se_sym_rem_mha": 39.832,
+            "hw975_sym_rem_mha": 89.28,
+            "z_symmetry_retention": 0.5938,
+            "inferred_p_surv": 0.5265,
+            "inferred_sector_signal_alpha": 0.8169,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.43326756,
+            "abs_error_sym_rem_mha": 272.265,
+            "se_sym_rem_mha": 51.801,
+            "hw975_sym_rem_mha": 116.106,
+            "z_symmetry_retention": 0.5859,
+            "inferred_p_surv": 0.5174,
+            "inferred_sector_signal_alpha": 0.8111,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_07": {
+          "primary": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.36651346,
+            "abs_error_sym_rem_mha": 58.224,
+            "se_sym_rem_mha": 16.985,
+            "hw975_sym_rem_mha": 38.071,
+            "z_symmetry_retention": 0.793,
+            "inferred_p_surv": 0.7587,
+            "inferred_sector_signal_alpha": 0.9049,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.37245933,
+            "abs_error_sym_rem_mha": 52.278,
+            "se_sym_rem_mha": 23.18,
+            "hw975_sym_rem_mha": 51.955,
+            "z_symmetry_retention": 0.7754,
+            "inferred_p_surv": 0.7294,
+            "inferred_sector_signal_alpha": 0.891,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_08": {
+          "primary": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.7511785,
+            "abs_error_sym_rem_mha": 4.335,
+            "se_sym_rem_mha": 14.764,
+            "hw975_sym_rem_mha": 33.092,
+            "z_symmetry_retention": 0.5234,
+            "inferred_p_surv": 0.4336,
+            "inferred_sector_signal_alpha": 0.7045,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.74115538,
+            "abs_error_sym_rem_mha": 5.688,
+            "se_sym_rem_mha": 25.133,
+            "hw975_sym_rem_mha": 56.334,
+            "z_symmetry_retention": 0.5039,
+            "inferred_p_surv": 0.3911,
+            "inferred_sector_signal_alpha": 0.6699,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        }
+      }
+    },
+    "P3_Prom_IBM": {
+      "primary_verified_25mha_count": 6,
+      "confirmed_verified_25mha_count": 6,
+      "primary_verified_15mha_count": 5,
+      "primary_verified_20mha_count": 6,
+      "primary_verified_35mha_count": 6,
+      "median_abs_error_mha": 8.951,
+      "mean_abs_error_mha": 30.053,
+      "ibm_billed_seconds_total": 12.0,
+      "iqm_billed_credits_total": 0.0,
+      "ibm_seconds_per_confirmed_25mha": 2.0,
+      "iqm_credits_per_confirmed_25mha": 0.0,
+      "molecules": {
+        "M_Dev_01": {
+          "primary": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.96748206,
+            "abs_error_sym_rem_mha": 1.148,
+            "se_sym_rem_mha": 5.803,
+            "hw975_sym_rem_mha": 13.007,
+            "z_symmetry_retention": 0.9492,
+            "inferred_p_surv": 0.9598,
+            "inferred_sector_signal_alpha": 0.9894,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.96505322,
+            "abs_error_sym_rem_mha": 1.281,
+            "se_sym_rem_mha": 8.501,
+            "hw975_sym_rem_mha": 19.055,
+            "z_symmetry_retention": 0.957,
+            "inferred_p_surv": 0.9765,
+            "inferred_sector_signal_alpha": 0.9939,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_02": {
+          "primary": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.36330484,
+            "abs_error_sym_rem_mha": 2.426,
+            "se_sym_rem_mha": 6.332,
+            "hw975_sym_rem_mha": 14.192,
+            "z_symmetry_retention": 0.9453,
+            "inferred_p_surv": 0.9638,
+            "inferred_sector_signal_alpha": 0.9856,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.36745326,
+            "abs_error_sym_rem_mha": 1.722,
+            "se_sym_rem_mha": 8.881,
+            "hw975_sym_rem_mha": 19.907,
+            "z_symmetry_retention": 0.9355,
+            "inferred_p_surv": 0.9285,
+            "inferred_sector_signal_alpha": 0.9713,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_03": {
+          "primary": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.8878073,
+            "abs_error_sym_rem_mha": 8.196,
+            "se_sym_rem_mha": 8.443,
+            "hw975_sym_rem_mha": 18.925,
+            "z_symmetry_retention": 0.8955,
+            "inferred_p_surv": 0.8694,
+            "inferred_sector_signal_alpha": 0.9453,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.90393085,
+            "abs_error_sym_rem_mha": 7.927,
+            "se_sym_rem_mha": 10.826,
+            "hw975_sym_rem_mha": 24.265,
+            "z_symmetry_retention": 0.8945,
+            "inferred_p_surv": 0.8663,
+            "inferred_sector_signal_alpha": 0.944,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_04": {
+          "primary": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.27750243,
+            "abs_error_sym_rem_mha": 9.707,
+            "se_sym_rem_mha": 7.161,
+            "hw975_sym_rem_mha": 16.05,
+            "z_symmetry_retention": 0.792,
+            "inferred_p_surv": 0.7991,
+            "inferred_sector_signal_alpha": 0.9207,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.29113709,
+            "abs_error_sym_rem_mha": 3.928,
+            "se_sym_rem_mha": 10.884,
+            "hw975_sym_rem_mha": 24.395,
+            "z_symmetry_retention": 0.7637,
+            "inferred_p_surv": 0.7396,
+            "inferred_sector_signal_alpha": 0.8935,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_05": {
+          "primary": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.88938516,
+            "abs_error_sym_rem_mha": 65.13,
+            "se_sym_rem_mha": 10.812,
+            "hw975_sym_rem_mha": 24.233,
+            "z_symmetry_retention": 0.5244,
+            "inferred_p_surv": 0.3353,
+            "inferred_sector_signal_alpha": 0.6039,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.870488,
+            "abs_error_sym_rem_mha": 46.233,
+            "se_sym_rem_mha": 17.56,
+            "hw975_sym_rem_mha": 39.359,
+            "z_symmetry_retention": 0.5039,
+            "inferred_p_surv": 0.3012,
+            "inferred_sector_signal_alpha": 0.5667,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_06": {
+          "primary": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.575325,
+            "abs_error_sym_rem_mha": 130.207,
+            "se_sym_rem_mha": 33.355,
+            "hw975_sym_rem_mha": 74.762,
+            "z_symmetry_retention": 0.6123,
+            "inferred_p_surv": 0.5655,
+            "inferred_sector_signal_alpha": 0.8368,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.6183294,
+            "abs_error_sym_rem_mha": 87.203,
+            "se_sym_rem_mha": 38.293,
+            "hw975_sym_rem_mha": 85.831,
+            "z_symmetry_retention": 0.6289,
+            "inferred_p_surv": 0.585,
+            "inferred_sector_signal_alpha": 0.8491,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_07": {
+          "primary": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.4314742,
+            "abs_error_sym_rem_mha": 6.737,
+            "se_sym_rem_mha": 16.373,
+            "hw975_sym_rem_mha": 36.698,
+            "z_symmetry_retention": 0.7793,
+            "inferred_p_surv": 0.7445,
+            "inferred_sector_signal_alpha": 0.8976,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.40716692,
+            "abs_error_sym_rem_mha": 17.571,
+            "se_sym_rem_mha": 23.887,
+            "hw975_sym_rem_mha": 53.541,
+            "z_symmetry_retention": 0.7637,
+            "inferred_p_surv": 0.7115,
+            "inferred_sector_signal_alpha": 0.882,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_08": {
+          "primary": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.76371788,
+            "abs_error_sym_rem_mha": 16.875,
+            "se_sym_rem_mha": 17.616,
+            "hw975_sym_rem_mha": 39.486,
+            "z_symmetry_retention": 0.4238,
+            "inferred_p_surv": 0.2562,
+            "inferred_sector_signal_alpha": 0.5206,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.76131248,
+            "abs_error_sym_rem_mha": 14.469,
+            "se_sym_rem_mha": 26.112,
+            "hw975_sym_rem_mha": 58.528,
+            "z_symmetry_retention": 0.4824,
+            "inferred_p_surv": 0.3644,
+            "inferred_sector_signal_alpha": 0.6403,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        }
+      }
+    },
+    "P1_SABRE_IQM": {
+      "primary_verified_25mha_count": 5,
+      "confirmed_verified_25mha_count": 5,
+      "primary_verified_15mha_count": 4,
+      "primary_verified_20mha_count": 5,
+      "primary_verified_35mha_count": 6,
+      "median_abs_error_mha": 13.957,
+      "mean_abs_error_mha": 32.655,
+      "ibm_billed_seconds_total": 0.0,
+      "iqm_billed_credits_total": 16.5,
+      "ibm_seconds_per_confirmed_25mha": 0.0,
+      "iqm_credits_per_confirmed_25mha": 3.3,
+      "molecules": {
+        "M_Dev_01": {
+          "primary": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.96604142,
+            "abs_error_sym_rem_mha": 0.293,
+            "se_sym_rem_mha": 6.071,
+            "hw975_sym_rem_mha": 13.607,
+            "z_symmetry_retention": 0.9326,
+            "inferred_p_surv": 0.9386,
+            "inferred_sector_signal_alpha": 0.9835,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.95667821,
+            "abs_error_sym_rem_mha": 9.656,
+            "se_sym_rem_mha": 8.815,
+            "hw975_sym_rem_mha": 19.758,
+            "z_symmetry_retention": 0.9414,
+            "inferred_p_surv": 0.9397,
+            "inferred_sector_signal_alpha": 0.984,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_02": {
+          "primary": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.37188826,
+            "abs_error_sym_rem_mha": 6.157,
+            "se_sym_rem_mha": 5.375,
+            "hw975_sym_rem_mha": 12.049,
+            "z_symmetry_retention": 0.9268,
+            "inferred_p_surv": 0.9154,
+            "inferred_sector_signal_alpha": 0.9658,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.36466434,
+            "abs_error_sym_rem_mha": 1.067,
+            "se_sym_rem_mha": 7.844,
+            "hw975_sym_rem_mha": 17.582,
+            "z_symmetry_retention": 0.9395,
+            "inferred_p_surv": 0.9175,
+            "inferred_sector_signal_alpha": 0.9671,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_03": {
+          "primary": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.89168982,
+            "abs_error_sym_rem_mha": 4.314,
+            "se_sym_rem_mha": 10.915,
+            "hw975_sym_rem_mha": 24.464,
+            "z_symmetry_retention": 0.8604,
+            "inferred_p_surv": 0.8054,
+            "inferred_sector_signal_alpha": 0.9152,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.87243444,
+            "abs_error_sym_rem_mha": 23.569,
+            "se_sym_rem_mha": 12.392,
+            "hw975_sym_rem_mha": 27.775,
+            "z_symmetry_retention": 0.8984,
+            "inferred_p_surv": 0.8509,
+            "inferred_sector_signal_alpha": 0.9378,
+            "verified_25mha_met": true,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_04": {
+          "primary": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.27591072,
+            "abs_error_sym_rem_mha": 11.298,
+            "se_sym_rem_mha": 7.403,
+            "hw975_sym_rem_mha": 16.592,
+            "z_symmetry_retention": 0.8457,
+            "inferred_p_surv": 0.8068,
+            "inferred_sector_signal_alpha": 0.9286,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.285965,
+            "abs_error_sym_rem_mha": 1.244,
+            "se_sym_rem_mha": 8.723,
+            "hw975_sym_rem_mha": 19.551,
+            "z_symmetry_retention": 0.8477,
+            "inferred_p_surv": 0.8009,
+            "inferred_sector_signal_alpha": 0.9266,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_05": {
+          "primary": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.84087163,
+            "abs_error_sym_rem_mha": 16.617,
+            "se_sym_rem_mha": 12.255,
+            "hw975_sym_rem_mha": 27.469,
+            "z_symmetry_retention": 0.7197,
+            "inferred_p_surv": 0.6163,
+            "inferred_sector_signal_alpha": 0.8334,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.84522887,
+            "abs_error_sym_rem_mha": 20.974,
+            "se_sym_rem_mha": 13.935,
+            "hw975_sym_rem_mha": 31.233,
+            "z_symmetry_retention": 0.6992,
+            "inferred_p_surv": 0.582,
+            "inferred_sector_signal_alpha": 0.8132,
+            "verified_25mha_met": true,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_06": {
+          "primary": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.57046842,
+            "abs_error_sym_rem_mha": 135.064,
+            "se_sym_rem_mha": 23.281,
+            "hw975_sym_rem_mha": 52.183,
+            "z_symmetry_retention": 0.7051,
+            "inferred_p_surv": 0.6367,
+            "inferred_sector_signal_alpha": 0.8794,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.5306337,
+            "abs_error_sym_rem_mha": 174.898,
+            "se_sym_rem_mha": 33.965,
+            "hw975_sym_rem_mha": 76.128,
+            "z_symmetry_retention": 0.6895,
+            "inferred_p_surv": 0.6126,
+            "inferred_sector_signal_alpha": 0.8681,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_07": {
+          "primary": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.36245077,
+            "abs_error_sym_rem_mha": 62.287,
+            "se_sym_rem_mha": 15.19,
+            "hw975_sym_rem_mha": 34.046,
+            "z_symmetry_retention": 0.8086,
+            "inferred_p_surv": 0.7507,
+            "inferred_sector_signal_alpha": 0.9036,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.3584757,
+            "abs_error_sym_rem_mha": 66.262,
+            "se_sym_rem_mha": 20.33,
+            "hw975_sym_rem_mha": 45.568,
+            "z_symmetry_retention": 0.8223,
+            "inferred_p_surv": 0.7618,
+            "inferred_sector_signal_alpha": 0.9095,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_08": {
+          "primary": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.77205261,
+            "abs_error_sym_rem_mha": 25.209,
+            "se_sym_rem_mha": 10.58,
+            "hw975_sym_rem_mha": 23.714,
+            "z_symmetry_retention": 0.5117,
+            "inferred_p_surv": 0.3441,
+            "inferred_sector_signal_alpha": 0.6495,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.78194884,
+            "abs_error_sym_rem_mha": 35.106,
+            "se_sym_rem_mha": 16.724,
+            "hw975_sym_rem_mha": 37.484,
+            "z_symmetry_retention": 0.5234,
+            "inferred_p_surv": 0.37,
+            "inferred_sector_signal_alpha": 0.6709,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        }
+      }
+    },
+    "P2_TKET_IQM": {
+      "primary_verified_25mha_count": 4,
+      "confirmed_verified_25mha_count": 4,
+      "primary_verified_15mha_count": 4,
+      "primary_verified_20mha_count": 4,
+      "primary_verified_35mha_count": 4,
+      "median_abs_error_mha": 25.38,
+      "mean_abs_error_mha": 37.591,
+      "ibm_billed_seconds_total": 0.0,
+      "iqm_billed_credits_total": 15.0,
+      "ibm_seconds_per_confirmed_25mha": 0.0,
+      "iqm_credits_per_confirmed_25mha": 3.75,
+      "molecules": {
+        "M_Dev_01": {
+          "primary": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.96269966,
+            "abs_error_sym_rem_mha": 3.635,
+            "se_sym_rem_mha": 6.304,
+            "hw975_sym_rem_mha": 14.129,
+            "z_symmetry_retention": 0.9316,
+            "inferred_p_surv": 0.9417,
+            "inferred_sector_signal_alpha": 0.9844,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.9604239,
+            "abs_error_sym_rem_mha": 5.911,
+            "se_sym_rem_mha": 8.84,
+            "hw975_sym_rem_mha": 19.813,
+            "z_symmetry_retention": 0.9355,
+            "inferred_p_surv": 0.9371,
+            "inferred_sector_signal_alpha": 0.9832,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_02": {
+          "primary": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.37357139,
+            "abs_error_sym_rem_mha": 7.84,
+            "se_sym_rem_mha": 4.93,
+            "hw975_sym_rem_mha": 11.05,
+            "z_symmetry_retention": 0.9424,
+            "inferred_p_surv": 0.943,
+            "inferred_sector_signal_alpha": 0.9773,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.35663973,
+            "abs_error_sym_rem_mha": 9.091,
+            "se_sym_rem_mha": 7.674,
+            "hw975_sym_rem_mha": 17.2,
+            "z_symmetry_retention": 0.9648,
+            "inferred_p_surv": 0.9738,
+            "inferred_sector_signal_alpha": 0.9898,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_03": {
+          "primary": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.89541182,
+            "abs_error_sym_rem_mha": 0.592,
+            "se_sym_rem_mha": 8.14,
+            "hw975_sym_rem_mha": 18.245,
+            "z_symmetry_retention": 0.9004,
+            "inferred_p_surv": 0.8737,
+            "inferred_sector_signal_alpha": 0.9474,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.908915,
+            "abs_error_sym_rem_mha": 12.911,
+            "se_sym_rem_mha": 10.999,
+            "hw975_sym_rem_mha": 24.654,
+            "z_symmetry_retention": 0.8848,
+            "inferred_p_surv": 0.8415,
+            "inferred_sector_signal_alpha": 0.9328,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_04": {
+          "primary": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.27488336,
+            "abs_error_sym_rem_mha": 12.326,
+            "se_sym_rem_mha": 8.078,
+            "hw975_sym_rem_mha": 18.106,
+            "z_symmetry_retention": 0.8037,
+            "inferred_p_surv": 0.7449,
+            "inferred_sector_signal_alpha": 0.9008,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.28024998,
+            "abs_error_sym_rem_mha": 6.959,
+            "se_sym_rem_mha": 9.811,
+            "hw975_sym_rem_mha": 21.991,
+            "z_symmetry_retention": 0.832,
+            "inferred_p_surv": 0.7948,
+            "inferred_sector_signal_alpha": 0.9229,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_05": {
+          "primary": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.86268917,
+            "abs_error_sym_rem_mha": 38.434,
+            "se_sym_rem_mha": 12.766,
+            "hw975_sym_rem_mha": 28.614,
+            "z_symmetry_retention": 0.7148,
+            "inferred_p_surv": 0.6098,
+            "inferred_sector_signal_alpha": 0.8294,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.83657705,
+            "abs_error_sym_rem_mha": 12.322,
+            "se_sym_rem_mha": 21.472,
+            "hw975_sym_rem_mha": 48.127,
+            "z_symmetry_retention": 0.6992,
+            "inferred_p_surv": 0.5916,
+            "inferred_sector_signal_alpha": 0.8175,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_06": {
+          "primary": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.58593256,
+            "abs_error_sym_rem_mha": 119.6,
+            "se_sym_rem_mha": 25.098,
+            "hw975_sym_rem_mha": 56.254,
+            "z_symmetry_retention": 0.707,
+            "inferred_p_surv": 0.6422,
+            "inferred_sector_signal_alpha": 0.8822,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.52705065,
+            "abs_error_sym_rem_mha": 178.482,
+            "se_sym_rem_mha": 35.159,
+            "hw975_sym_rem_mha": 78.806,
+            "z_symmetry_retention": 0.7031,
+            "inferred_p_surv": 0.6387,
+            "inferred_sector_signal_alpha": 0.8799,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_07": {
+          "primary": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.37721348,
+            "abs_error_sym_rem_mha": 47.524,
+            "se_sym_rem_mha": 15.151,
+            "hw975_sym_rem_mha": 33.96,
+            "z_symmetry_retention": 0.8369,
+            "inferred_p_surv": 0.801,
+            "inferred_sector_signal_alpha": 0.9257,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.36062581,
+            "abs_error_sym_rem_mha": 64.112,
+            "se_sym_rem_mha": 19.864,
+            "hw975_sym_rem_mha": 44.522,
+            "z_symmetry_retention": 0.8398,
+            "inferred_p_surv": 0.7997,
+            "inferred_sector_signal_alpha": 0.9255,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_08": {
+          "primary": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.81762168,
+            "abs_error_sym_rem_mha": 70.778,
+            "se_sym_rem_mha": 11.545,
+            "hw975_sym_rem_mha": 25.878,
+            "z_symmetry_retention": 0.4004,
+            "inferred_p_surv": 0.2,
+            "inferred_sector_signal_alpha": 0.4624,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.78948389,
+            "abs_error_sym_rem_mha": 42.641,
+            "se_sym_rem_mha": 21.858,
+            "hw975_sym_rem_mha": 48.992,
+            "z_symmetry_retention": 0.4316,
+            "inferred_p_surv": 0.2336,
+            "inferred_sector_signal_alpha": 0.5145,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        }
+      }
+    },
+    "P3_Prom_IQM": {
+      "primary_verified_25mha_count": 7,
+      "confirmed_verified_25mha_count": 5,
+      "primary_verified_15mha_count": 5,
+      "primary_verified_20mha_count": 6,
+      "primary_verified_35mha_count": 7,
+      "median_abs_error_mha": 7.529,
+      "mean_abs_error_mha": 27.448,
+      "ibm_billed_seconds_total": 0.0,
+      "iqm_billed_credits_total": 11.25,
+      "ibm_seconds_per_confirmed_25mha": 0.0,
+      "iqm_credits_per_confirmed_25mha": 2.25,
+      "molecules": {
+        "M_Dev_01": {
+          "primary": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.96268428,
+            "abs_error_sym_rem_mha": 3.65,
+            "se_sym_rem_mha": 6.375,
+            "hw975_sym_rem_mha": 14.29,
+            "z_symmetry_retention": 0.9531,
+            "inferred_p_surv": 0.9588,
+            "inferred_sector_signal_alpha": 0.9892,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.98100631,
+            "abs_error_sym_rem_mha": 14.672,
+            "se_sym_rem_mha": 9.168,
+            "hw975_sym_rem_mha": 20.548,
+            "z_symmetry_retention": 0.9277,
+            "inferred_p_surv": 0.9322,
+            "inferred_sector_signal_alpha": 0.9817,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_02": {
+          "primary": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.37053217,
+            "abs_error_sym_rem_mha": 4.801,
+            "se_sym_rem_mha": 5.697,
+            "hw975_sym_rem_mha": 12.77,
+            "z_symmetry_retention": 0.9238,
+            "inferred_p_surv": 0.895,
+            "inferred_sector_signal_alpha": 0.9574,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.37621325,
+            "abs_error_sym_rem_mha": 10.482,
+            "se_sym_rem_mha": 7.593,
+            "hw975_sym_rem_mha": 17.019,
+            "z_symmetry_retention": 0.9121,
+            "inferred_p_surv": 0.895,
+            "inferred_sector_signal_alpha": 0.9568,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_03": {
+          "primary": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.89210729,
+            "abs_error_sym_rem_mha": 3.896,
+            "se_sym_rem_mha": 10.439,
+            "hw975_sym_rem_mha": 23.398,
+            "z_symmetry_retention": 0.8682,
+            "inferred_p_surv": 0.8055,
+            "inferred_sector_signal_alpha": 0.916,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.8918844,
+            "abs_error_sym_rem_mha": 4.119,
+            "se_sym_rem_mha": 12.271,
+            "hw975_sym_rem_mha": 27.505,
+            "z_symmetry_retention": 0.875,
+            "inferred_p_surv": 0.8323,
+            "inferred_sector_signal_alpha": 0.9281,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_04": {
+          "primary": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.27077247,
+            "abs_error_sym_rem_mha": 16.437,
+            "se_sym_rem_mha": 7.69,
+            "hw975_sym_rem_mha": 17.237,
+            "z_symmetry_retention": 0.8389,
+            "inferred_p_surv": 0.7872,
+            "inferred_sector_signal_alpha": 0.9207,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.27919427,
+            "abs_error_sym_rem_mha": 8.015,
+            "se_sym_rem_mha": 9.307,
+            "hw975_sym_rem_mha": 20.86,
+            "z_symmetry_retention": 0.8516,
+            "inferred_p_surv": 0.8176,
+            "inferred_sector_signal_alpha": 0.9331,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_05": {
+          "primary": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.83391956,
+            "abs_error_sym_rem_mha": 9.664,
+            "se_sym_rem_mha": 12.563,
+            "hw975_sym_rem_mha": 28.158,
+            "z_symmetry_retention": 0.7246,
+            "inferred_p_surv": 0.626,
+            "inferred_sector_signal_alpha": 0.8387,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.8767612,
+            "abs_error_sym_rem_mha": 52.506,
+            "se_sym_rem_mha": 15.154,
+            "hw975_sym_rem_mha": 33.966,
+            "z_symmetry_retention": 0.7012,
+            "inferred_p_surv": 0.5804,
+            "inferred_sector_signal_alpha": 0.813,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_06": {
+          "primary": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.55255345,
+            "abs_error_sym_rem_mha": 152.979,
+            "se_sym_rem_mha": 24.707,
+            "hw975_sym_rem_mha": 55.379,
+            "z_symmetry_retention": 0.6953,
+            "inferred_p_surv": 0.6179,
+            "inferred_sector_signal_alpha": 0.8716,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.59427505,
+            "abs_error_sym_rem_mha": 111.257,
+            "se_sym_rem_mha": 33.905,
+            "hw975_sym_rem_mha": 75.994,
+            "z_symmetry_retention": 0.7012,
+            "inferred_p_surv": 0.6339,
+            "inferred_sector_signal_alpha": 0.8775,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_07": {
+          "primary": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.40197433,
+            "abs_error_sym_rem_mha": 22.763,
+            "se_sym_rem_mha": 14.49,
+            "hw975_sym_rem_mha": 32.477,
+            "z_symmetry_retention": 0.8242,
+            "inferred_p_surv": 0.7662,
+            "inferred_sector_signal_alpha": 0.9114,
+            "verified_25mha_met": true,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.37942982,
+            "abs_error_sym_rem_mha": 45.308,
+            "se_sym_rem_mha": 22.768,
+            "hw975_sym_rem_mha": 51.031,
+            "z_symmetry_retention": 0.834,
+            "inferred_p_surv": 0.7885,
+            "inferred_sector_signal_alpha": 0.9207,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_08": {
+          "primary": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.75223738,
+            "abs_error_sym_rem_mha": 5.394,
+            "se_sym_rem_mha": 11.782,
+            "hw975_sym_rem_mha": 26.408,
+            "z_symmetry_retention": 0.5215,
+            "inferred_p_surv": 0.36,
+            "inferred_sector_signal_alpha": 0.6644,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.75606005,
+            "abs_error_sym_rem_mha": 9.217,
+            "se_sym_rem_mha": 17.555,
+            "hw975_sym_rem_mha": 39.347,
+            "z_symmetry_retention": 0.5508,
+            "inferred_p_surv": 0.4025,
+            "inferred_sector_signal_alpha": 0.7033,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        }
+      }
+    },
+    "P4_Prom_Fleet_GroupSplit": {
+      "primary_verified_25mha_count": 6,
+      "confirmed_verified_25mha_count": 5,
+      "primary_verified_15mha_count": 3,
+      "primary_verified_20mha_count": 5,
+      "primary_verified_35mha_count": 7,
+      "median_abs_error_mha": 16.953,
+      "mean_abs_error_mha": 22.648,
+      "ibm_billed_seconds_total": 12.0,
+      "iqm_billed_credits_total": 8.25,
+      "ibm_seconds_per_confirmed_25mha": 2.4,
+      "iqm_credits_per_confirmed_25mha": 1.65,
+      "molecules": {
+        "M_Dev_01": {
+          "primary": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.97001472,
+            "abs_error_sym_rem_mha": 3.68,
+            "se_sym_rem_mha": 6.103,
+            "hw975_sym_rem_mha": 13.68,
+            "z_symmetry_retention": 0.9531,
+            "inferred_p_surv": 0.9603,
+            "inferred_sector_signal_alpha": 0.9896,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_01",
+            "energy_sym_rem_ha": -0.95481891,
+            "abs_error_sym_rem_mha": 11.516,
+            "se_sym_rem_mha": 8.914,
+            "hw975_sym_rem_mha": 19.98,
+            "z_symmetry_retention": 0.9395,
+            "inferred_p_surv": 0.9455,
+            "inferred_sector_signal_alpha": 0.9855,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_02": {
+          "primary": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.37740154,
+            "abs_error_sym_rem_mha": 11.67,
+            "se_sym_rem_mha": 5.851,
+            "hw975_sym_rem_mha": 13.114,
+            "z_symmetry_retention": 0.9277,
+            "inferred_p_surv": 0.9029,
+            "inferred_sector_signal_alpha": 0.9607,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_02",
+            "energy_sym_rem_ha": -15.36459797,
+            "abs_error_sym_rem_mha": 1.133,
+            "se_sym_rem_mha": 8.099,
+            "hw975_sym_rem_mha": 18.153,
+            "z_symmetry_retention": 0.9238,
+            "inferred_p_surv": 0.906,
+            "inferred_sector_signal_alpha": 0.9619,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_03": {
+          "primary": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.8795709,
+            "abs_error_sym_rem_mha": 16.433,
+            "se_sym_rem_mha": 9.672,
+            "hw975_sym_rem_mha": 21.679,
+            "z_symmetry_retention": 0.8574,
+            "inferred_p_surv": 0.7888,
+            "inferred_sector_signal_alpha": 0.9076,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_03",
+            "energy_sym_rem_ha": -1.90932695,
+            "abs_error_sym_rem_mha": 13.323,
+            "se_sym_rem_mha": 10.548,
+            "hw975_sym_rem_mha": 23.642,
+            "z_symmetry_retention": 0.8809,
+            "inferred_p_surv": 0.836,
+            "inferred_sector_signal_alpha": 0.9302,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_04": {
+          "primary": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.28203123,
+            "abs_error_sym_rem_mha": 5.178,
+            "se_sym_rem_mha": 7.115,
+            "hw975_sym_rem_mha": 15.948,
+            "z_symmetry_retention": 0.8477,
+            "inferred_p_surv": 0.8045,
+            "inferred_sector_signal_alpha": 0.9279,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_04",
+            "energy_sym_rem_ha": -15.2939792,
+            "abs_error_sym_rem_mha": 6.77,
+            "se_sym_rem_mha": 10.803,
+            "hw975_sym_rem_mha": 24.213,
+            "z_symmetry_retention": 0.832,
+            "inferred_p_surv": 0.7755,
+            "inferred_sector_signal_alpha": 0.9157,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        },
+        "M_Dev_05": {
+          "primary": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.84992881,
+            "abs_error_sym_rem_mha": 25.674,
+            "se_sym_rem_mha": 11.747,
+            "hw975_sym_rem_mha": 26.33,
+            "z_symmetry_retention": 0.7227,
+            "inferred_p_surv": 0.6207,
+            "inferred_sector_signal_alpha": 0.836,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_05",
+            "energy_sym_rem_ha": -2.81024786,
+            "abs_error_sym_rem_mha": 14.007,
+            "se_sym_rem_mha": 24.411,
+            "hw975_sym_rem_mha": 54.714,
+            "z_symmetry_retention": 0.7109,
+            "inferred_p_surv": 0.5983,
+            "inferred_sector_signal_alpha": 0.8234,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_06": {
+          "primary": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.62479826,
+            "abs_error_sym_rem_mha": 80.734,
+            "se_sym_rem_mha": 25.44,
+            "hw975_sym_rem_mha": 57.021,
+            "z_symmetry_retention": 0.7178,
+            "inferred_p_surv": 0.656,
+            "inferred_sector_signal_alpha": 0.8884,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "confirmation": {
+            "config_id": "M_Dev_06",
+            "energy_sym_rem_ha": -74.61166869,
+            "abs_error_sym_rem_mha": 93.863,
+            "se_sym_rem_mha": 37.33,
+            "hw975_sym_rem_mha": 83.671,
+            "z_symmetry_retention": 0.7129,
+            "inferred_p_surv": 0.644,
+            "inferred_sector_signal_alpha": 0.8827,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_07": {
+          "primary": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.40726549,
+            "abs_error_sym_rem_mha": 17.472,
+            "se_sym_rem_mha": 16.477,
+            "hw975_sym_rem_mha": 36.931,
+            "z_symmetry_retention": 0.8291,
+            "inferred_p_surv": 0.7748,
+            "inferred_sector_signal_alpha": 0.9151,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_07",
+            "energy_sym_rem_ha": -107.38138371,
+            "abs_error_sym_rem_mha": 43.354,
+            "se_sym_rem_mha": 21.231,
+            "hw975_sym_rem_mha": 47.586,
+            "z_symmetry_retention": 0.8203,
+            "inferred_p_surv": 0.7603,
+            "inferred_sector_signal_alpha": 0.9087,
+            "verified_25mha_met": false,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": false
+          },
+          "both_verified_25mha": false
+        },
+        "M_Dev_08": {
+          "primary": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.76718299,
+            "abs_error_sym_rem_mha": 20.34,
+            "se_sym_rem_mha": 18.132,
+            "hw975_sym_rem_mha": 40.642,
+            "z_symmetry_retention": 0.5703,
+            "inferred_p_surv": 0.4336,
+            "inferred_sector_signal_alpha": 0.7284,
+            "verified_25mha_met": true,
+            "verified_20mha_met": false,
+            "verified_15mha_met": false,
+            "verified_35mha_met": true
+          },
+          "confirmation": {
+            "config_id": "M_Dev_08",
+            "energy_sym_rem_ha": -3.76165526,
+            "abs_error_sym_rem_mha": 14.812,
+            "se_sym_rem_mha": 22.539,
+            "hw975_sym_rem_mha": 50.52,
+            "z_symmetry_retention": 0.5605,
+            "inferred_p_surv": 0.4128,
+            "inferred_sector_signal_alpha": 0.7136,
+            "verified_25mha_met": true,
+            "verified_20mha_met": true,
+            "verified_15mha_met": true,
+            "verified_35mha_met": true
+          },
+          "both_verified_25mha": true
+        }
+      }
+    }
+  },
+  "rung1_sym_rem_evaluations": {
+    "P3_Prom_IBM": {
+      "M_Dev_01": {
+        "config_id": "M_Dev_01",
+        "energy_sym_rem_ha": -0.96338903,
+        "abs_error_sym_rem_mha": 2.946,
+        "se_sym_rem_mha": 8.588,
+        "hw975_sym_rem_mha": 19.249,
+        "z_symmetry_retention": 0.9512,
+        "inferred_p_surv": 0.9607,
+        "inferred_sector_signal_alpha": 0.9897,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_02": {
+        "config_id": "M_Dev_02",
+        "energy_sym_rem_ha": -15.35731518,
+        "abs_error_sym_rem_mha": 8.416,
+        "se_sym_rem_mha": 8.749,
+        "hw975_sym_rem_mha": 19.609,
+        "z_symmetry_retention": 0.9531,
+        "inferred_p_surv": 0.9726,
+        "inferred_sector_signal_alpha": 0.9892,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_03": {
+        "config_id": "M_Dev_03",
+        "energy_sym_rem_ha": -1.87306262,
+        "abs_error_sym_rem_mha": 22.941,
+        "se_sym_rem_mha": 11.924,
+        "hw975_sym_rem_mha": 26.727,
+        "z_symmetry_retention": 0.8828,
+        "inferred_p_surv": 0.8478,
+        "inferred_sector_signal_alpha": 0.9354,
+        "verified_25mha_met": true,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      },
+      "M_Dev_04": {
+        "config_id": "M_Dev_04",
+        "energy_sym_rem_ha": -15.26881759,
+        "abs_error_sym_rem_mha": 18.391,
+        "se_sym_rem_mha": 11.123,
+        "hw975_sym_rem_mha": 24.932,
+        "z_symmetry_retention": 0.7949,
+        "inferred_p_surv": 0.7931,
+        "inferred_sector_signal_alpha": 0.9187,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      },
+      "M_Dev_05": {
+        "config_id": "M_Dev_05",
+        "energy_sym_rem_ha": -2.90806598,
+        "abs_error_sym_rem_mha": 83.811,
+        "se_sym_rem_mha": 15.328,
+        "hw975_sym_rem_mha": 34.355,
+        "z_symmetry_retention": 0.4941,
+        "inferred_p_surv": 0.2866,
+        "inferred_sector_signal_alpha": 0.5489,
+        "verified_25mha_met": false,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": false
+      },
+      "M_Dev_06": {
+        "config_id": "M_Dev_06",
+        "energy_sym_rem_ha": -74.5472266,
+        "abs_error_sym_rem_mha": 158.306,
+        "se_sym_rem_mha": 51.314,
+        "hw975_sym_rem_mha": 115.016,
+        "z_symmetry_retention": 0.5859,
+        "inferred_p_surv": 0.5212,
+        "inferred_sector_signal_alpha": 0.8125,
+        "verified_25mha_met": false,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": false
+      },
+      "M_Dev_07": {
+        "config_id": "M_Dev_07",
+        "energy_sym_rem_ha": -107.45775382,
+        "abs_error_sym_rem_mha": 33.016,
+        "se_sym_rem_mha": 24.781,
+        "hw975_sym_rem_mha": 55.543,
+        "z_symmetry_retention": 0.7637,
+        "inferred_p_surv": 0.7173,
+        "inferred_sector_signal_alpha": 0.8843,
+        "verified_25mha_met": false,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      },
+      "M_Dev_08": {
+        "config_id": "M_Dev_08",
+        "energy_sym_rem_ha": -3.76876963,
+        "abs_error_sym_rem_mha": 21.926,
+        "se_sym_rem_mha": 22.494,
+        "hw975_sym_rem_mha": 50.419,
+        "z_symmetry_retention": 0.4199,
+        "inferred_p_surv": 0.2556,
+        "inferred_sector_signal_alpha": 0.5159,
+        "verified_25mha_met": true,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      }
+    },
+    "P3_Prom_IQM": {
+      "M_Dev_01": {
+        "config_id": "M_Dev_01",
+        "energy_sym_rem_ha": -0.97178754,
+        "abs_error_sym_rem_mha": 5.453,
+        "se_sym_rem_mha": 8.586,
+        "hw975_sym_rem_mha": 19.244,
+        "z_symmetry_retention": 0.9453,
+        "inferred_p_surv": 0.9505,
+        "inferred_sector_signal_alpha": 0.9869,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_02": {
+        "config_id": "M_Dev_02",
+        "energy_sym_rem_ha": -15.35831646,
+        "abs_error_sym_rem_mha": 7.415,
+        "se_sym_rem_mha": 8.488,
+        "hw975_sym_rem_mha": 19.025,
+        "z_symmetry_retention": 0.9199,
+        "inferred_p_surv": 0.8914,
+        "inferred_sector_signal_alpha": 0.9557,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_03": {
+        "config_id": "M_Dev_03",
+        "energy_sym_rem_ha": -1.88918,
+        "abs_error_sym_rem_mha": 6.824,
+        "se_sym_rem_mha": 13.803,
+        "hw975_sym_rem_mha": 30.939,
+        "z_symmetry_retention": 0.8672,
+        "inferred_p_surv": 0.8066,
+        "inferred_sector_signal_alpha": 0.9164,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_04": {
+        "config_id": "M_Dev_04",
+        "energy_sym_rem_ha": -15.26110017,
+        "abs_error_sym_rem_mha": 26.109,
+        "se_sym_rem_mha": 11.602,
+        "hw975_sym_rem_mha": 26.004,
+        "z_symmetry_retention": 0.8242,
+        "inferred_p_surv": 0.7645,
+        "inferred_sector_signal_alpha": 0.9107,
+        "verified_25mha_met": false,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      },
+      "M_Dev_05": {
+        "config_id": "M_Dev_05",
+        "energy_sym_rem_ha": -2.81160945,
+        "abs_error_sym_rem_mha": 12.646,
+        "se_sym_rem_mha": 19.95,
+        "hw975_sym_rem_mha": 44.716,
+        "z_symmetry_retention": 0.707,
+        "inferred_p_surv": 0.6001,
+        "inferred_sector_signal_alpha": 0.8232,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_06": {
+        "config_id": "M_Dev_06",
+        "energy_sym_rem_ha": -74.59357749,
+        "abs_error_sym_rem_mha": 111.955,
+        "se_sym_rem_mha": 36.615,
+        "hw975_sym_rem_mha": 82.07,
+        "z_symmetry_retention": 0.6914,
+        "inferred_p_surv": 0.6115,
+        "inferred_sector_signal_alpha": 0.8684,
+        "verified_25mha_met": false,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": false
+      },
+      "M_Dev_07": {
+        "config_id": "M_Dev_07",
+        "energy_sym_rem_ha": -107.40582357,
+        "abs_error_sym_rem_mha": 18.914,
+        "se_sym_rem_mha": 19.809,
+        "hw975_sym_rem_mha": 44.401,
+        "z_symmetry_retention": 0.8262,
+        "inferred_p_surv": 0.7698,
+        "inferred_sector_signal_alpha": 0.9129,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      },
+      "M_Dev_08": {
+        "config_id": "M_Dev_08",
+        "energy_sym_rem_ha": -3.76242364,
+        "abs_error_sym_rem_mha": 15.58,
+        "se_sym_rem_mha": 17.287,
+        "hw975_sym_rem_mha": 38.748,
+        "z_symmetry_retention": 0.5098,
+        "inferred_p_surv": 0.345,
+        "inferred_sector_signal_alpha": 0.6487,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      }
+    },
+    "P4_Prom_Fleet_GroupSplit": {
+      "M_Dev_01": {
+        "config_id": "M_Dev_01",
+        "energy_sym_rem_ha": -0.97515337,
+        "abs_error_sym_rem_mha": 8.819,
+        "se_sym_rem_mha": 8.553,
+        "hw975_sym_rem_mha": 19.171,
+        "z_symmetry_retention": 0.9492,
+        "inferred_p_surv": 0.9505,
+        "inferred_sector_signal_alpha": 0.987,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_02": {
+        "config_id": "M_Dev_02",
+        "energy_sym_rem_ha": -15.38302506,
+        "abs_error_sym_rem_mha": 17.294,
+        "se_sym_rem_mha": 7.494,
+        "hw975_sym_rem_mha": 16.798,
+        "z_symmetry_retention": 0.9121,
+        "inferred_p_surv": 0.8733,
+        "inferred_sector_signal_alpha": 0.9479,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      },
+      "M_Dev_03": {
+        "config_id": "M_Dev_03",
+        "energy_sym_rem_ha": -1.88667734,
+        "abs_error_sym_rem_mha": 9.326,
+        "se_sym_rem_mha": 14.501,
+        "hw975_sym_rem_mha": 32.502,
+        "z_symmetry_retention": 0.8535,
+        "inferred_p_surv": 0.7787,
+        "inferred_sector_signal_alpha": 0.9028,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_04": {
+        "config_id": "M_Dev_04",
+        "energy_sym_rem_ha": -15.28252489,
+        "abs_error_sym_rem_mha": 4.684,
+        "se_sym_rem_mha": 9.843,
+        "hw975_sym_rem_mha": 22.062,
+        "z_symmetry_retention": 0.8535,
+        "inferred_p_surv": 0.8099,
+        "inferred_sector_signal_alpha": 0.9304,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_05": {
+        "config_id": "M_Dev_05",
+        "energy_sym_rem_ha": -2.85714791,
+        "abs_error_sym_rem_mha": 32.893,
+        "se_sym_rem_mha": 17.808,
+        "hw975_sym_rem_mha": 39.914,
+        "z_symmetry_retention": 0.6895,
+        "inferred_p_surv": 0.5702,
+        "inferred_sector_signal_alpha": 0.8052,
+        "verified_25mha_met": false,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      },
+      "M_Dev_06": {
+        "config_id": "M_Dev_06",
+        "energy_sym_rem_ha": -74.59803164,
+        "abs_error_sym_rem_mha": 107.501,
+        "se_sym_rem_mha": 36.589,
+        "hw975_sym_rem_mha": 82.011,
+        "z_symmetry_retention": 0.6992,
+        "inferred_p_surv": 0.6296,
+        "inferred_sector_signal_alpha": 0.8765,
+        "verified_25mha_met": false,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": false
+      },
+      "M_Dev_07": {
+        "config_id": "M_Dev_07",
+        "energy_sym_rem_ha": -107.41585474,
+        "abs_error_sym_rem_mha": 8.883,
+        "se_sym_rem_mha": 21.739,
+        "hw975_sym_rem_mha": 48.725,
+        "z_symmetry_retention": 0.8418,
+        "inferred_p_surv": 0.7918,
+        "inferred_sector_signal_alpha": 0.9227,
+        "verified_25mha_met": true,
+        "verified_20mha_met": true,
+        "verified_15mha_met": true,
+        "verified_35mha_met": true
+      },
+      "M_Dev_08": {
+        "config_id": "M_Dev_08",
+        "energy_sym_rem_ha": -3.78150882,
+        "abs_error_sym_rem_mha": 34.666,
+        "se_sym_rem_mha": 23.086,
+        "hw975_sym_rem_mha": 51.745,
+        "z_symmetry_retention": 0.5332,
+        "inferred_p_surv": 0.3789,
+        "inferred_sector_signal_alpha": 0.6815,
+        "verified_25mha_met": false,
+        "verified_20mha_met": false,
+        "verified_15mha_met": false,
+        "verified_35mha_met": true
+      }
+    }
+  },
+  "sym_rem_stopping_sweep": [
+    {
+      "sigma_stop_mha": 15.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 15.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 15.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 18.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 1,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 18.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 1,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 18.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 0,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 1,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 20.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 20.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 20.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 22.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 22.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 22.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 25.0,
+      "eta_sym_min": 0.72,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 3,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 3,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 25.0,
+      "eta_sym_min": 0.78,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 3,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 3,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    },
+    {
+      "sigma_stop_mha": 25.0,
+      "eta_sym_min": 0.82,
+      "arms": {
+        "P3_Prom_IBM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        },
+        "P3_Prom_IQM": {
+          "halted_at_rung1": 2,
+          "verified_25mha": 7,
+          "false_accept_at_rung1": 0
+        },
+        "P4_Prom_Fleet_GroupSplit": {
+          "halted_at_rung1": 3,
+          "verified_25mha": 6,
+          "false_accept_at_rung1": 0
+        }
+      }
+    }
+  ]
+}

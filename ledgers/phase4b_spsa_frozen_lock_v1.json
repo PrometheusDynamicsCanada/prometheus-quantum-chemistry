@@ -1,0 +1,1374 @@
+{
+  "schema_version": "prometheus-phase4b-spsa-frozen-lock-v1.0",
+  "frozen_at_utc": "2026-11-14T18:16:12.053866+00:00",
+  "upstream_provenance": {
+    "pre_registration_v2_sha256": "34fe8b70274c3d5569c331302eaecde2c095fbcd31d965fb6708c79150f64ffa",
+    "submission_manifest_v2_sha256": "ea393602b2b123a64f96027a31cb32f1e3cb65728d5270af82078ae615744134",
+    "phase4a_frozen_lock_payload_sha256": "aa8f3a62fddcdb79f7f946100c1d678ce90ee11040ca82b6c32c362d18733a65",
+    "phase4a_frozen_lock_file_sha256": "68cf27ed5332a29864813eb55144383769bb2d9421c9b3ba5c25635831ce928a"
+  },
+  "primary_research_question": "Do Prometheus resource-efficiency savings per independently confirmed `<= 25.0 mHa` chemistry calculation persist during live closed-loop hardware `SPSA` optimization starting cold from Restricted Hartree-Fock (`phi_0 = 0`), compared against fixed `SABRE` and `TKET` execution?",
+  "accuracy_target_mha": 25.0,
+  "estimators": {
+    "closed_loop_gradient_and_primary_estimator": "PauliWeight_SymREM_ZeroParam",
+    "co_reported_secondary_estimator": "Raw_SectorPostSelected_ConfusionInversion_v2_0",
+    "zero_reference_energy_access": true
+  },
+  "adaptive_trajectory_and_precision_gates": {
+    "coarse_steps_512_shots": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "fine_steps_1024_shots": [
+      6,
+      7,
+      8
+    ],
+    "trajectory_early_freeze_gate": {
+      "min_step_rule": "step_k >= max(5, p_sym + 1)",
+      "two_step_linf_update_max_rad": 0.075,
+      "min_mean_perturbation_z_symmetry_retention": 0.78,
+      "max_mean_perturbation_hw975_sym_rem_mha": 24.0
+    },
+    "final_rung1_stopping_gate": {
+      "sigma_stop_hw975_sym_rem_mha": 20.0,
+      "z_symmetry_retention_min": 0.78
+    }
+  },
+  "cohort_chem_4b_6": {
+    "M_Hold_06": {
+      "config_id": "M_Hold_06",
+      "species": "H4_rect",
+      "geometry_parameter": 86.5,
+      "model_type": "DOCI",
+      "active_orbitals": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n_qubits": 4,
+      "n_occupied_sector_bits": 2,
+      "n_qwc_pauli_groups": 3,
+      "e_hf_ha": -1.82811096,
+      "e_cas_fci_spinorb_ha": -1.9514348,
+      "e_exact_model_ha": -1.88086177,
+      "hf_error_mha": 52.751,
+      "puccd_bfgs_opt_ha": -1.88075606,
+      "puccd_bfgs_error_mha": 0.106,
+      "spsa_8step_noiseless_ha": -1.87560787,
+      "spsa_8step_noiseless_error_mha": 5.254,
+      "spsa_noiseless_trajectory_error_mha": [
+        52.7508,
+        39.3975,
+        38.1095,
+        38.6924,
+        7.9735,
+        6.0315,
+        5.5617,
+        5.6114,
+        4.6947
+      ],
+      "fleet_v2_provider": "IQM",
+      "ansatz_spec": {
+        "n_qubits": 4,
+        "n_occupied_pairs": 2,
+        "p_sym": 4,
+        "n_pair_gates": 4,
+        "logical_2q_gates": 8,
+        "orbits": [
+          [
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              3
+            ]
+          ]
+        ],
+        "rhf_fock_curvatures_ha": [
+          0.490641,
+          0.973716,
+          1.07658,
+          1.559655
+        ]
+      },
+      "spsa_schedule": {
+        "seed": 20261120,
+        "n_steps": 8,
+        "tail_average_steps": [
+          6,
+          7,
+          8
+        ],
+        "steps": [
+          {
+            "step_k": 1,
+            "mode": "frontier_central_diff",
+            "ck_rad": 0.35,
+            "ak_scale": 0.92,
+            "max_clip_rad": 1.15,
+            "delta_vec": [
+              1.0,
+              0.04,
+              0.04,
+              0.04
+            ]
+          },
+          {
+            "step_k": 2,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.16,
+            "ak_scale": 0.414737,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 3,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.149182,
+            "ak_scale": 0.338691,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 4,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.143196,
+            "ak_scale": 0.291138,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 5,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.139095,
+            "ak_scale": 0.258009,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 6,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.135995,
+            "ak_scale": 0.233324,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 7,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.133514,
+            "ak_scale": 0.214065,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 8,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.131451,
+            "ak_scale": 0.198528,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          }
+        ]
+      }
+    },
+    "M_Hold_07": {
+      "config_id": "M_Hold_07",
+      "species": "LiH",
+      "geometry_parameter": 2.65,
+      "model_type": "DOCI",
+      "active_orbitals": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "n_qubits": 4,
+      "n_occupied_sector_bits": 2,
+      "n_qwc_pauli_groups": 3,
+      "e_hf_ha": -7.75221794,
+      "e_cas_fci_spinorb_ha": -7.81403376,
+      "e_exact_model_ha": -7.78627299,
+      "hf_error_mha": 34.055,
+      "puccd_bfgs_opt_ha": -7.78626443,
+      "puccd_bfgs_error_mha": 0.009,
+      "spsa_8step_noiseless_ha": -7.78553794,
+      "spsa_8step_noiseless_error_mha": 0.735,
+      "spsa_noiseless_trajectory_error_mha": [
+        34.055,
+        10.7481,
+        10.6156,
+        3.1592,
+        1.9922,
+        1.2873,
+        0.8865,
+        0.7731,
+        0.582
+      ],
+      "fleet_v2_provider": "IQM",
+      "ansatz_spec": {
+        "n_qubits": 4,
+        "n_occupied_pairs": 2,
+        "p_sym": 3,
+        "n_pair_gates": 3,
+        "logical_2q_gates": 6,
+        "orbits": [
+          [
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ]
+          ]
+        ],
+        "rhf_fock_curvatures_ha": [
+          0.533802,
+          0.35,
+          2.686609
+        ]
+      },
+      "spsa_schedule": {
+        "seed": 20261121,
+        "n_steps": 8,
+        "tail_average_steps": [
+          6,
+          7,
+          8
+        ],
+        "steps": [
+          {
+            "step_k": 1,
+            "mode": "frontier_central_diff",
+            "ck_rad": 0.35,
+            "ak_scale": 0.92,
+            "max_clip_rad": 1.15,
+            "delta_vec": [
+              1.0,
+              0.04,
+              0.04
+            ]
+          },
+          {
+            "step_k": 2,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.16,
+            "ak_scale": 0.414737,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 3,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.149182,
+            "ak_scale": 0.338691,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 4,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.143196,
+            "ak_scale": 0.291138,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 5,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.139095,
+            "ak_scale": 0.258009,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 6,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.135995,
+            "ak_scale": 0.233324,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 7,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.133514,
+            "ak_scale": 0.214065,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 8,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.131451,
+            "ak_scale": 0.198528,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              -1.0
+            ]
+          }
+        ]
+      }
+    },
+    "M_Hold_09": {
+      "config_id": "M_Hold_09",
+      "species": "BeH2",
+      "geometry_parameter": 2.2,
+      "model_type": "DOCI",
+      "active_orbitals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_qubits": 6,
+      "n_occupied_sector_bits": 3,
+      "n_qwc_pauli_groups": 3,
+      "e_hf_ha": -15.27431185,
+      "e_cas_fci_spinorb_ha": -15.32448291,
+      "e_exact_model_ha": -15.31781485,
+      "hf_error_mha": 43.503,
+      "puccd_bfgs_opt_ha": -15.31751919,
+      "puccd_bfgs_error_mha": 0.296,
+      "spsa_8step_noiseless_ha": -15.3163065,
+      "spsa_8step_noiseless_error_mha": 1.508,
+      "spsa_noiseless_trajectory_error_mha": [
+        43.503,
+        21.9422,
+        20.5852,
+        3.4616,
+        3.3752,
+        2.1213,
+        1.6605,
+        1.4379,
+        1.4456
+      ],
+      "fleet_v2_provider": "IBM",
+      "ansatz_spec": {
+        "n_qubits": 6,
+        "n_occupied_pairs": 3,
+        "p_sym": 3,
+        "n_pair_gates": 4,
+        "logical_2q_gates": 8,
+        "orbits": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        ],
+        "rhf_fock_curvatures_ha": [
+          0.464851,
+          0.533072,
+          1.176172
+        ]
+      },
+      "spsa_schedule": {
+        "seed": 20261123,
+        "n_steps": 8,
+        "tail_average_steps": [
+          6,
+          7,
+          8
+        ],
+        "steps": [
+          {
+            "step_k": 1,
+            "mode": "frontier_central_diff",
+            "ck_rad": 0.35,
+            "ak_scale": 0.92,
+            "max_clip_rad": 1.15,
+            "delta_vec": [
+              1.0,
+              0.04,
+              0.04
+            ]
+          },
+          {
+            "step_k": 2,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.16,
+            "ak_scale": 0.414737,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 3,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.149182,
+            "ak_scale": 0.338691,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 4,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.143196,
+            "ak_scale": 0.291138,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 5,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.139095,
+            "ak_scale": 0.258009,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 6,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.135995,
+            "ak_scale": 0.233324,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 7,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.133514,
+            "ak_scale": 0.214065,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 8,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.131451,
+            "ak_scale": 0.198528,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "M_Hold_10": {
+      "config_id": "M_Hold_10",
+      "species": "BeH2",
+      "geometry_parameter": 2.5,
+      "model_type": "DOCI",
+      "active_orbitals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_qubits": 6,
+      "n_occupied_sector_bits": 3,
+      "n_qwc_pauli_groups": 3,
+      "e_hf_ha": -15.16306898,
+      "e_cas_fci_spinorb_ha": -15.25963385,
+      "e_exact_model_ha": -15.23765847,
+      "hf_error_mha": 74.589,
+      "puccd_bfgs_opt_ha": -15.23709147,
+      "puccd_bfgs_error_mha": 0.567,
+      "spsa_8step_noiseless_ha": -15.23575383,
+      "spsa_8step_noiseless_error_mha": 1.905,
+      "spsa_noiseless_trajectory_error_mha": [
+        74.5895,
+        31.7339,
+        32.0105,
+        25.8627,
+        23.5222,
+        6.2123,
+        2.3665,
+        1.7031,
+        1.7158
+      ],
+      "fleet_v2_provider": "IBM",
+      "ansatz_spec": {
+        "n_qubits": 6,
+        "n_occupied_pairs": 3,
+        "p_sym": 3,
+        "n_pair_gates": 4,
+        "logical_2q_gates": 8,
+        "orbits": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        ],
+        "rhf_fock_curvatures_ha": [
+          0.35,
+          0.433992,
+          1.102211
+        ]
+      },
+      "spsa_schedule": {
+        "seed": 20261124,
+        "n_steps": 8,
+        "tail_average_steps": [
+          6,
+          7,
+          8
+        ],
+        "steps": [
+          {
+            "step_k": 1,
+            "mode": "frontier_central_diff",
+            "ck_rad": 0.35,
+            "ak_scale": 0.92,
+            "max_clip_rad": 1.15,
+            "delta_vec": [
+              1.0,
+              0.04,
+              0.04
+            ]
+          },
+          {
+            "step_k": 2,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.16,
+            "ak_scale": 0.414737,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 3,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.149182,
+            "ak_scale": 0.338691,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 4,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.143196,
+            "ak_scale": 0.291138,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 5,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.139095,
+            "ak_scale": 0.258009,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 6,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.135995,
+            "ak_scale": 0.233324,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 7,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.133514,
+            "ak_scale": 0.214065,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 8,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.131451,
+            "ak_scale": 0.198528,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "M_Hold_12": {
+      "config_id": "M_Hold_12",
+      "species": "H6_chain",
+      "geometry_parameter": 1.6,
+      "model_type": "DOCI",
+      "active_orbitals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_qubits": 6,
+      "n_occupied_sector_bits": 3,
+      "n_qwc_pauli_groups": 3,
+      "e_hf_ha": -2.66498308,
+      "e_cas_fci_spinorb_ha": -2.95266836,
+      "e_exact_model_ha": -2.72892791,
+      "hf_error_mha": 63.945,
+      "puccd_bfgs_opt_ha": -2.72748005,
+      "puccd_bfgs_error_mha": 1.448,
+      "spsa_8step_noiseless_ha": -2.71685232,
+      "spsa_8step_noiseless_error_mha": 12.076,
+      "spsa_noiseless_trajectory_error_mha": [
+        63.9448,
+        38.7324,
+        37.0357,
+        29.4318,
+        27.9273,
+        20.6848,
+        12.2284,
+        12.0882,
+        11.9247
+      ],
+      "fleet_v2_provider": "IBM",
+      "ansatz_spec": {
+        "n_qubits": 6,
+        "n_occupied_pairs": 3,
+        "p_sym": 6,
+        "n_pair_gates": 9,
+        "logical_2q_gates": 18,
+        "orbits": [
+          [
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          [
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              5
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ]
+        ],
+        "rhf_fock_curvatures_ha": [
+          0.365661,
+          0.952054,
+          1.275123,
+          0.547115,
+          0.844489,
+          1.4173
+        ]
+      },
+      "spsa_schedule": {
+        "seed": 20261126,
+        "n_steps": 8,
+        "tail_average_steps": [
+          6,
+          7,
+          8
+        ],
+        "steps": [
+          {
+            "step_k": 1,
+            "mode": "frontier_central_diff",
+            "ck_rad": 0.35,
+            "ak_scale": 0.92,
+            "max_clip_rad": 1.15,
+            "delta_vec": [
+              1.0,
+              0.04,
+              0.04,
+              0.04,
+              0.04,
+              0.04
+            ]
+          },
+          {
+            "step_k": 2,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.16,
+            "ak_scale": 0.414737,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              -1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 3,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.149182,
+            "ak_scale": 0.338691,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 4,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.143196,
+            "ak_scale": 0.291138,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              1.0,
+              -1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 5,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.139095,
+            "ak_scale": 0.258009,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              1.0,
+              -1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 6,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.135995,
+            "ak_scale": 0.233324,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 7,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.133514,
+            "ak_scale": 0.214065,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              -1.0,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 8,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.131451,
+            "ak_scale": 0.198528,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    "M_Hold_21": {
+      "config_id": "M_Hold_21",
+      "species": "H8_chain",
+      "geometry_parameter": 1.4,
+      "model_type": "DOCI",
+      "active_orbitals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "n_qubits": 8,
+      "n_occupied_sector_bits": 4,
+      "n_qwc_pauli_groups": 3,
+      "e_hf_ha": -3.78783087,
+      "e_cas_fci_spinorb_ha": -4.06072813,
+      "e_exact_model_ha": -3.83621829,
+      "hf_error_mha": 48.387,
+      "puccd_bfgs_opt_ha": -3.83091351,
+      "puccd_bfgs_error_mha": 5.305,
+      "spsa_8step_noiseless_ha": -3.8160967,
+      "spsa_8step_noiseless_error_mha": 20.122,
+      "spsa_noiseless_trajectory_error_mha": [
+        48.3874,
+        32.1171,
+        38.8271,
+        34.1002,
+        33.8997,
+        26.221,
+        24.1169,
+        23.6531,
+        16.0923
+      ],
+      "fleet_v2_provider": "IQM",
+      "ansatz_spec": {
+        "n_qubits": 8,
+        "n_occupied_pairs": 4,
+        "p_sym": 6,
+        "n_pair_gates": 11,
+        "logical_2q_gates": 22,
+        "orbits": [
+          [
+            [
+              3,
+              4
+            ]
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          [
+            [
+              2,
+              5
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              3,
+              7
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          [
+            [
+              1,
+              5
+            ]
+          ]
+        ],
+        "rhf_fock_curvatures_ha": [
+          0.36892,
+          0.978333,
+          1.987592,
+          0.578678,
+          2.551196,
+          0.752042
+        ]
+      },
+      "spsa_schedule": {
+        "seed": 20261135,
+        "n_steps": 8,
+        "tail_average_steps": [
+          6,
+          7,
+          8
+        ],
+        "steps": [
+          {
+            "step_k": 1,
+            "mode": "frontier_central_diff",
+            "ck_rad": 0.35,
+            "ak_scale": 0.92,
+            "max_clip_rad": 1.15,
+            "delta_vec": [
+              1.0,
+              0.04,
+              0.04,
+              0.04,
+              0.04,
+              0.04
+            ]
+          },
+          {
+            "step_k": 2,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.16,
+            "ak_scale": 0.414737,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 3,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.149182,
+            "ak_scale": 0.338691,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 4,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.143196,
+            "ak_scale": 0.291138,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              1.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 5,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.139095,
+            "ak_scale": 0.258009,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              1.0,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 6,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.135995,
+            "ak_scale": 0.233324,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              -1.0,
+              -1.0,
+              1.0,
+              1.0,
+              -1.0
+            ]
+          },
+          {
+            "step_k": 7,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.133514,
+            "ak_scale": 0.214065,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              -1.0,
+              -1.0,
+              -1.0,
+              1.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "step_k": 8,
+            "mode": "walsh_hadamard_spsa",
+            "ck_rad": 0.131451,
+            "ak_scale": 0.198528,
+            "max_clip_rad": 0.28,
+            "delta_vec": [
+              1.0,
+              1.0,
+              -1.0,
+              1.0,
+              -1.0,
+              -1.0
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "policy_manifest": {
+    "policies": {
+      "P4B_SABRE_IBM": {
+        "provider": "IBM",
+        "jobs_expected": 11,
+        "jobs_max": 11,
+        "total_pubs_expected": 364,
+        "total_pubs_max": 364,
+        "max_pubs_single_job": 38,
+        "physical_shots_expected": 362496,
+        "physical_shots_max": 362496,
+        "ibm_s_expected": 125.0,
+        "ibm_s_max": 136.0,
+        "iqm_cr_expected": 0.0,
+        "iqm_cr_max": 0.0
+      },
+      "P4B_TKET_IBM": {
+        "provider": "IBM",
+        "jobs_expected": 11,
+        "jobs_max": 11,
+        "total_pubs_expected": 364,
+        "total_pubs_max": 364,
+        "max_pubs_single_job": 38,
+        "physical_shots_expected": 362496,
+        "physical_shots_max": 362496,
+        "ibm_s_expected": 125.0,
+        "ibm_s_max": 136.0,
+        "iqm_cr_expected": 0.0,
+        "iqm_cr_max": 0.0
+      },
+      "P4B_SABRE_IQM": {
+        "provider": "IQM",
+        "jobs_expected": 11,
+        "jobs_max": 11,
+        "total_pubs_expected": 364,
+        "total_pubs_max": 364,
+        "max_pubs_single_job": 38,
+        "physical_shots_expected": 362496,
+        "physical_shots_max": 362496,
+        "ibm_s_expected": 0.0,
+        "ibm_s_max": 0.0,
+        "iqm_cr_expected": 135.75,
+        "iqm_cr_max": 137.25
+      },
+      "P4B_TKET_IQM": {
+        "provider": "IQM",
+        "jobs_expected": 11,
+        "jobs_max": 11,
+        "total_pubs_expected": 364,
+        "total_pubs_max": 364,
+        "max_pubs_single_job": 38,
+        "physical_shots_expected": 362496,
+        "physical_shots_max": 362496,
+        "ibm_s_expected": 0.0,
+        "ibm_s_max": 0.0,
+        "iqm_cr_expected": 135.75,
+        "iqm_cr_max": 137.25
+      },
+      "P4B_Prom_IBM": {
+        "provider": "IBM",
+        "jobs_expected": 12,
+        "jobs_max": 12,
+        "total_pubs_expected": 123,
+        "total_pubs_max": 144,
+        "max_pubs_single_job": 14,
+        "physical_shots_expected": 75264,
+        "physical_shots_max": 95232,
+        "ibm_s_expected": 49.0,
+        "ibm_s_max": 62.0,
+        "iqm_cr_expected": 0.0,
+        "iqm_cr_max": 0.0
+      },
+      "P4B_Prom_IQM": {
+        "provider": "IQM",
+        "jobs_expected": 12,
+        "jobs_max": 12,
+        "total_pubs_expected": 123,
+        "total_pubs_max": 144,
+        "max_pubs_single_job": 14,
+        "physical_shots_expected": 75264,
+        "physical_shots_max": 95232,
+        "ibm_s_expected": 0.0,
+        "ibm_s_max": 0.0,
+        "iqm_cr_expected": 48.0,
+        "iqm_cr_max": 57.75
+      },
+      "P4B_Prom_Fleet_v2": {
+        "provider": "DUAL_IBM_IQM",
+        "fleet_routing_rule": "WidthCalibrated_IntactSplit (`6Q DOCI` -> IBM Heron; `4Q & 8Q DOCI` -> IQM Emerald)",
+        "jobs_expected": 24,
+        "jobs_max": 24,
+        "total_pubs_expected": 150,
+        "total_pubs_max": 168,
+        "max_pubs_single_job": 8,
+        "physical_shots_expected": 93184,
+        "physical_shots_max": 110592,
+        "ibm_s_expected": 44.0,
+        "ibm_s_max": 47.0,
+        "iqm_cr_expected": 36.75,
+        "iqm_cr_max": 44.25
+      }
+    },
+    "totals": {
+      "jobs_expected": 92,
+      "jobs_max": 92,
+      "total_pubs_expected": 1852,
+      "total_pubs_max": 1912,
+      "physical_shots_expected": 1693696,
+      "physical_shots_max": 1751040,
+      "ibm_s_expected": 343.0,
+      "ibm_s_max": 381.0,
+      "iqm_cr_expected": 356.25,
+      "iqm_cr_max": 376.5
+    }
+  },
+  "budget_reconciliation": {
+    "settled_prior_phase4_ibm_s": 356.0,
+    "settled_prior_phase4_iqm_cr": 396.0,
+    "phase4b_expected_ibm_s": 343.0,
+    "phase4b_max_ibm_s": 381.0,
+    "phase4b_expected_iqm_cr": 356.25,
+    "phase4b_max_iqm_cr": 376.5,
+    "projected_cumulative_expected_ibm_s": 699.0,
+    "projected_cumulative_max_ibm_s": 737.0,
+    "approved_combined_ibm_ceiling_s": 749.0,
+    "projected_cumulative_expected_iqm_cr": 752.25,
+    "projected_cumulative_max_iqm_cr": 772.5,
+    "approved_combined_iqm_ceiling_cr": 779.25,
+    "verified_remaining_ibm_balance_s": 900.0,
+    "verified_remaining_iqm_balance_cr": 485.25
+  },
+  "frozen_lock_payload_sha256": "f770c6a7f7b28d933d23bd4e9adf230c93439a341a17e9c24a1a725192b5f0a0"
+}

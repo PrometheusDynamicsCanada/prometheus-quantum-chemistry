@@ -1,0 +1,3993 @@
+{
+  "schema_version": "phase4-submission-manifest-v2",
+  "generated_at_utc": "2026-11-14T11:46:36.058908+00:00",
+  "upstream_preregistration_v2_payload_sha256": "15ac4f7cb41e89af459ee48a482fd15fb411d2da0ef8dd405c8a0b2daba3901e",
+  "jobs_submitted": 0,
+  "verified_account_quotas": {
+    "ibm_quantum_available_seconds": 1256.0,
+    "iqm_resonance_available_credits": 881.25
+  },
+  "stage_summaries": {
+    "Stage_4_0_Dev8": {
+      "total_jobs_exp": 20,
+      "total_jobs_max": 20,
+      "ibm_jobs_exp": 10,
+      "ibm_jobs_max": 10,
+      "iqm_jobs_exp": 10,
+      "iqm_jobs_max": 10,
+      "total_pubs_exp": 337,
+      "total_pubs_max": 380,
+      "ibm_pubs_exp": 170,
+      "ibm_pubs_max": 196,
+      "iqm_pubs_exp": 167,
+      "iqm_pubs_max": 184,
+      "readout_cal_pubs_exp": 40,
+      "readout_cal_pubs_max": 40,
+      "physical_shots_exp": 229888,
+      "physical_shots_max": 251904,
+      "ibm_seconds_exp": 60.0,
+      "ibm_seconds_max": 66.0,
+      "iqm_credits_exp": 60.0,
+      "iqm_credits_max": 63.75
+    },
+    "Phase_4A_Window_1": {
+      "total_jobs_exp": 20,
+      "total_jobs_max": 20,
+      "ibm_jobs_exp": 10,
+      "ibm_jobs_max": 10,
+      "iqm_jobs_exp": 10,
+      "iqm_jobs_max": 10,
+      "total_pubs_exp": 903,
+      "total_pubs_max": 1044,
+      "ibm_pubs_exp": 454,
+      "ibm_pubs_max": 540,
+      "iqm_pubs_exp": 449,
+      "iqm_pubs_max": 504,
+      "readout_cal_pubs_exp": 40,
+      "readout_cal_pubs_max": 40,
+      "physical_shots_exp": 622080,
+      "physical_shots_max": 694272,
+      "ibm_seconds_exp": 122.0,
+      "ibm_seconds_max": 138.0,
+      "iqm_credits_exp": 134.25,
+      "iqm_credits_max": 145.5
+    },
+    "Phase_4A_Window_2": {
+      "total_jobs_exp": 20,
+      "total_jobs_max": 20,
+      "ibm_jobs_exp": 10,
+      "ibm_jobs_max": 10,
+      "iqm_jobs_exp": 10,
+      "iqm_jobs_max": 10,
+      "total_pubs_exp": 903,
+      "total_pubs_max": 1044,
+      "ibm_pubs_exp": 454,
+      "ibm_pubs_max": 540,
+      "iqm_pubs_exp": 449,
+      "iqm_pubs_max": 504,
+      "readout_cal_pubs_exp": 40,
+      "readout_cal_pubs_max": 40,
+      "physical_shots_exp": 622080,
+      "physical_shots_max": 694272,
+      "ibm_seconds_exp": 122.0,
+      "ibm_seconds_max": 138.0,
+      "iqm_credits_exp": 134.25,
+      "iqm_credits_max": 145.5
+    },
+    "Phase_4A_Window_3": {
+      "total_jobs_exp": 20,
+      "total_jobs_max": 20,
+      "ibm_jobs_exp": 10,
+      "ibm_jobs_max": 10,
+      "iqm_jobs_exp": 10,
+      "iqm_jobs_max": 10,
+      "total_pubs_exp": 903,
+      "total_pubs_max": 1044,
+      "ibm_pubs_exp": 454,
+      "ibm_pubs_max": 540,
+      "iqm_pubs_exp": 449,
+      "iqm_pubs_max": 504,
+      "readout_cal_pubs_exp": 40,
+      "readout_cal_pubs_max": 40,
+      "physical_shots_exp": 622080,
+      "physical_shots_max": 694272,
+      "ibm_seconds_exp": 122.0,
+      "ibm_seconds_max": 138.0,
+      "iqm_credits_exp": 134.25,
+      "iqm_credits_max": 145.5
+    },
+    "Phase_4A_Total_Active": {
+      "total_jobs_exp": 80,
+      "total_jobs_max": 80,
+      "ibm_jobs_exp": 40,
+      "ibm_jobs_max": 40,
+      "iqm_jobs_exp": 40,
+      "iqm_jobs_max": 40,
+      "total_pubs_exp": 3046,
+      "total_pubs_max": 3512,
+      "ibm_pubs_exp": 1532,
+      "ibm_pubs_max": 1816,
+      "iqm_pubs_exp": 1514,
+      "iqm_pubs_max": 1696,
+      "readout_cal_pubs_exp": 160,
+      "readout_cal_pubs_max": 160,
+      "physical_shots_exp": 2096128,
+      "physical_shots_max": 2334720,
+      "ibm_seconds_exp": 426.0,
+      "ibm_seconds_max": 480.0,
+      "iqm_credits_exp": 462.75,
+      "iqm_credits_max": 500.25
+    },
+    "Phase_4B_Iterative_SPSA_8Steps": {
+      "total_jobs_exp": 46,
+      "total_jobs_max": 46,
+      "ibm_jobs_exp": 23,
+      "ibm_jobs_max": 23,
+      "iqm_jobs_exp": 23,
+      "iqm_jobs_max": 23,
+      "total_pubs_exp": 704,
+      "total_pubs_max": 788,
+      "ibm_pubs_exp": 352,
+      "ibm_pubs_max": 394,
+      "iqm_pubs_exp": 352,
+      "iqm_pubs_max": 394,
+      "readout_cal_pubs_exp": 92,
+      "readout_cal_pubs_max": 92,
+      "physical_shots_exp": 632832,
+      "physical_shots_max": 759808,
+      "ibm_seconds_exp": 146.0,
+      "ibm_seconds_max": 171.0,
+      "iqm_credits_exp": 154.5,
+      "iqm_credits_max": 177.0
+    },
+    "Phase_4A_Plus_4B_Combined_Active": {
+      "total_jobs_exp": 126,
+      "total_jobs_max": 126,
+      "ibm_jobs_exp": 63,
+      "ibm_jobs_max": 63,
+      "iqm_jobs_exp": 63,
+      "iqm_jobs_max": 63,
+      "total_pubs_exp": 3750,
+      "total_pubs_max": 4300,
+      "ibm_pubs_exp": 1884,
+      "ibm_pubs_max": 2210,
+      "iqm_pubs_exp": 1866,
+      "iqm_pubs_max": 2090,
+      "readout_cal_pubs_exp": 252,
+      "readout_cal_pubs_max": 252,
+      "physical_shots_exp": 2728960,
+      "physical_shots_max": 3094528,
+      "ibm_seconds_exp": 572.0,
+      "ibm_seconds_max": 651.0,
+      "iqm_credits_exp": 617.25,
+      "iqm_credits_max": 677.25
+    }
+  },
+  "per_policy_summaries": {
+    "Stage_4_0_Dev8": {
+      "P1_SABRE_IBM": {
+        "total_jobs_exp": 2,
+        "total_jobs_max": 2,
+        "ibm_jobs_exp": 2,
+        "ibm_jobs_max": 2,
+        "iqm_jobs_exp": 0,
+        "iqm_jobs_max": 0,
+        "total_pubs_exp": 56,
+        "total_pubs_max": 56,
+        "ibm_pubs_exp": 56,
+        "ibm_pubs_max": 56,
+        "iqm_pubs_exp": 0,
+        "iqm_pubs_max": 0,
+        "readout_cal_pubs_exp": 4,
+        "readout_cal_pubs_max": 4,
+        "physical_shots_exp": 43008,
+        "physical_shots_max": 43008,
+        "ibm_seconds_exp": 18.0,
+        "ibm_seconds_max": 18.0,
+        "iqm_credits_exp": 0,
+        "iqm_credits_max": 0
+      },
+      "P1_SABRE_IQM": {
+        "total_jobs_exp": 2,
+        "total_jobs_max": 2,
+        "ibm_jobs_exp": 0,
+        "ibm_jobs_max": 0,
+        "iqm_jobs_exp": 2,
+        "iqm_jobs_max": 2,
+        "total_pubs_exp": 56,
+        "total_pubs_max": 56,
+        "ibm_pubs_exp": 0,
+        "ibm_pubs_max": 0,
+        "iqm_pubs_exp": 56,
+        "iqm_pubs_max": 56,
+        "readout_cal_pubs_exp": 4,
+        "readout_cal_pubs_max": 4,
+        "physical_shots_exp": 43008,
+        "physical_shots_max": 43008,
+        "ibm_seconds_exp": 0,
+        "ibm_seconds_max": 0,
+        "iqm_credits_exp": 19.5,
+        "iqm_credits_max": 19.5
+      },
+      "P2_TKET_IBM": {
+        "total_jobs_exp": 2,
+        "total_jobs_max": 2,
+        "ibm_jobs_exp": 2,
+        "ibm_jobs_max": 2,
+        "iqm_jobs_exp": 0,
+        "iqm_jobs_max": 0,
+        "total_pubs_exp": 56,
+        "total_pubs_max": 56,
+        "ibm_pubs_exp": 56,
+        "ibm_pubs_max": 56,
+        "iqm_pubs_exp": 0,
+        "iqm_pubs_max": 0,
+        "readout_cal_pubs_exp": 4,
+        "readout_cal_pubs_max": 4,
+        "physical_shots_exp": 43008,
+        "physical_shots_max": 43008,
+        "ibm_seconds_exp": 18.0,
+        "ibm_seconds_max": 18.0,
+        "iqm_credits_exp": 0,
+        "iqm_credits_max": 0
+      },
+      "P2_TKET_IQM": {
+        "total_jobs_exp": 2,
+        "total_jobs_max": 2,
+        "ibm_jobs_exp": 0,
+        "ibm_jobs_max": 0,
+        "iqm_jobs_exp": 2,
+        "iqm_jobs_max": 2,
+        "total_pubs_exp": 56,
+        "total_pubs_max": 56,
+        "ibm_pubs_exp": 0,
+        "ibm_pubs_max": 0,
+        "iqm_pubs_exp": 56,
+        "iqm_pubs_max": 56,
+        "readout_cal_pubs_exp": 4,
+        "readout_cal_pubs_max": 4,
+        "physical_shots_exp": 43008,
+        "physical_shots_max": 43008,
+        "ibm_seconds_exp": 0,
+        "ibm_seconds_max": 0,
+        "iqm_credits_exp": 19.5,
+        "iqm_credits_max": 19.5
+      },
+      "P3_Prom_IBM": {
+        "total_jobs_exp": 3,
+        "total_jobs_max": 3,
+        "ibm_jobs_exp": 3,
+        "ibm_jobs_max": 3,
+        "iqm_jobs_exp": 0,
+        "iqm_jobs_max": 0,
+        "total_pubs_exp": 29,
+        "total_pubs_max": 42,
+        "ibm_pubs_exp": 29,
+        "ibm_pubs_max": 42,
+        "iqm_pubs_exp": 0,
+        "iqm_pubs_max": 0,
+        "readout_cal_pubs_exp": 6,
+        "readout_cal_pubs_max": 6,
+        "physical_shots_exp": 14848,
+        "physical_shots_max": 21504,
+        "ibm_seconds_exp": 12.0,
+        "ibm_seconds_max": 15.0,
+        "iqm_credits_exp": 0,
+        "iqm_credits_max": 0
+      },
+      "P3_Prom_IQM": {
+        "total_jobs_exp": 3,
+        "total_jobs_max": 3,
+        "ibm_jobs_exp": 0,
+        "ibm_jobs_max": 0,
+        "iqm_jobs_exp": 3,
+        "iqm_jobs_max": 3,
+        "total_pubs_exp": 29,
+        "total_pubs_max": 42,
+        "ibm_pubs_exp": 0,
+        "ibm_pubs_max": 0,
+        "iqm_pubs_exp": 29,
+        "iqm_pubs_max": 42,
+        "readout_cal_pubs_exp": 6,
+        "readout_cal_pubs_max": 6,
+        "physical_shots_exp": 14848,
+        "physical_shots_max": 21504,
+        "ibm_seconds_exp": 0,
+        "ibm_seconds_max": 0,
+        "iqm_credits_exp": 10.5,
+        "iqm_credits_max": 13.5
+      },
+      "P4_Prom_Fleet": {
+        "total_jobs_exp": 6,
+        "total_jobs_max": 6,
+        "ibm_jobs_exp": 3,
+        "ibm_jobs_max": 3,
+        "iqm_jobs_exp": 3,
+        "iqm_jobs_max": 3,
+        "total_pubs_exp": 55,
+        "total_pubs_max": 72,
+        "ibm_pubs_exp": 29,
+        "ibm_pubs_max": 42,
+        "iqm_pubs_exp": 26,
+        "iqm_pubs_max": 30,
+        "readout_cal_pubs_exp": 12,
+        "readout_cal_pubs_max": 12,
+        "physical_shots_exp": 28160,
+        "physical_shots_max": 36864,
+        "ibm_seconds_exp": 12.0,
+        "ibm_seconds_max": 15.0,
+        "iqm_credits_exp": 10.5,
+        "iqm_credits_max": 11.25
+      }
+    },
+    "Single_Holdout_Window_24": {
+      "P1_SABRE_IBM": {
+        "total_jobs_exp": 2,
+        "total_jobs_max": 2,
+        "ibm_jobs_exp": 2,
+        "ibm_jobs_max": 2,
+        "iqm_jobs_exp": 0,
+        "iqm_jobs_max": 0,
+        "total_pubs_exp": 156,
+        "total_pubs_max": 156,
+        "ibm_pubs_exp": 156,
+        "ibm_pubs_max": 156,
+        "iqm_pubs_exp": 0,
+        "iqm_pubs_max": 0,
+        "readout_cal_pubs_exp": 4,
+        "readout_cal_pubs_max": 4,
+        "physical_shots_exp": 119808,
+        "physical_shots_max": 119808,
+        "ibm_seconds_exp": 42.0,
+        "ibm_seconds_max": 42.0,
+        "iqm_credits_exp": 0,
+        "iqm_credits_max": 0
+      },
+      "P1_SABRE_IQM": {
+        "total_jobs_exp": 2,
+        "total_jobs_max": 2,
+        "ibm_jobs_exp": 0,
+        "ibm_jobs_max": 0,
+        "iqm_jobs_exp": 2,
+        "iqm_jobs_max": 2,
+        "total_pubs_exp": 156,
+        "total_pubs_max": 156,
+        "ibm_pubs_exp": 0,
+        "ibm_pubs_max": 0,
+        "iqm_pubs_exp": 156,
+        "iqm_pubs_max": 156,
+        "readout_cal_pubs_exp": 4,
+        "readout_cal_pubs_max": 4,
+        "physical_shots_exp": 119808,
+        "physical_shots_max": 119808,
+        "ibm_seconds_exp": 0,
+        "ibm_seconds_max": 0,
+        "iqm_credits_exp": 48.0,
+        "iqm_credits_max": 48.0
+      },
+      "P2_TKET_IBM": {
+        "total_jobs_exp": 2,
+        "total_jobs_max": 2,
+        "ibm_jobs_exp": 2,
+        "ibm_jobs_max": 2,
+        "iqm_jobs_exp": 0,
+        "iqm_jobs_max": 0,
+        "total_pubs_exp": 156,
+        "total_pubs_max": 156,
+        "ibm_pubs_exp": 156,
+        "ibm_pubs_max": 156,
+        "iqm_pubs_exp": 0,
+        "iqm_pubs_max": 0,
+        "readout_cal_pubs_exp": 4,
+        "readout_cal_pubs_max": 4,
+        "physical_shots_exp": 119808,
+        "physical_shots_max": 119808,
+        "ibm_seconds_exp": 42.0,
+        "ibm_seconds_max": 42.0,
+        "iqm_credits_exp": 0,
+        "iqm_credits_max": 0
+      },
+      "P2_TKET_IQM": {
+        "total_jobs_exp": 2,
+        "total_jobs_max": 2,
+        "ibm_jobs_exp": 0,
+        "ibm_jobs_max": 0,
+        "iqm_jobs_exp": 2,
+        "iqm_jobs_max": 2,
+        "total_pubs_exp": 156,
+        "total_pubs_max": 156,
+        "ibm_pubs_exp": 0,
+        "ibm_pubs_max": 0,
+        "iqm_pubs_exp": 156,
+        "iqm_pubs_max": 156,
+        "readout_cal_pubs_exp": 4,
+        "readout_cal_pubs_max": 4,
+        "physical_shots_exp": 119808,
+        "physical_shots_max": 119808,
+        "ibm_seconds_exp": 0,
+        "ibm_seconds_max": 0,
+        "iqm_credits_exp": 48.0,
+        "iqm_credits_max": 48.0
+      },
+      "P3_Prom_IBM": {
+        "total_jobs_exp": 3,
+        "total_jobs_max": 3,
+        "ibm_jobs_exp": 3,
+        "ibm_jobs_max": 3,
+        "iqm_jobs_exp": 0,
+        "iqm_jobs_max": 0,
+        "total_pubs_exp": 71,
+        "total_pubs_max": 114,
+        "ibm_pubs_exp": 71,
+        "ibm_pubs_max": 114,
+        "iqm_pubs_exp": 0,
+        "iqm_pubs_max": 0,
+        "readout_cal_pubs_exp": 6,
+        "readout_cal_pubs_max": 6,
+        "physical_shots_exp": 36352,
+        "physical_shots_max": 58368,
+        "ibm_seconds_exp": 19.0,
+        "ibm_seconds_max": 27.0,
+        "iqm_credits_exp": 0,
+        "iqm_credits_max": 0
+      },
+      "P3_Prom_IQM": {
+        "total_jobs_exp": 3,
+        "total_jobs_max": 3,
+        "ibm_jobs_exp": 0,
+        "ibm_jobs_max": 0,
+        "iqm_jobs_exp": 3,
+        "iqm_jobs_max": 3,
+        "total_pubs_exp": 71,
+        "total_pubs_max": 114,
+        "ibm_pubs_exp": 0,
+        "ibm_pubs_max": 0,
+        "iqm_pubs_exp": 71,
+        "iqm_pubs_max": 114,
+        "readout_cal_pubs_exp": 6,
+        "readout_cal_pubs_max": 6,
+        "physical_shots_exp": 36352,
+        "physical_shots_max": 58368,
+        "ibm_seconds_exp": 0,
+        "ibm_seconds_max": 0,
+        "iqm_credits_exp": 20.25,
+        "iqm_credits_max": 29.25
+      },
+      "P4_Prom_Fleet": {
+        "total_jobs_exp": 6,
+        "total_jobs_max": 6,
+        "ibm_jobs_exp": 3,
+        "ibm_jobs_max": 3,
+        "iqm_jobs_exp": 3,
+        "iqm_jobs_max": 3,
+        "total_pubs_exp": 137,
+        "total_pubs_max": 192,
+        "ibm_pubs_exp": 71,
+        "ibm_pubs_max": 114,
+        "iqm_pubs_exp": 66,
+        "iqm_pubs_max": 78,
+        "readout_cal_pubs_exp": 12,
+        "readout_cal_pubs_max": 12,
+        "physical_shots_exp": 70144,
+        "physical_shots_max": 98304,
+        "ibm_seconds_exp": 19.0,
+        "ibm_seconds_max": 27.0,
+        "iqm_credits_exp": 18.0,
+        "iqm_credits_max": 20.25
+      }
+    },
+    "Phase_4B_Iterative_SPSA_8Steps": {
+      "P4B_Prom_IBM": {
+        "total_jobs_exp": 12,
+        "total_jobs_max": 12,
+        "ibm_jobs_exp": 12,
+        "ibm_jobs_max": 12,
+        "iqm_jobs_exp": 0,
+        "iqm_jobs_max": 0,
+        "total_pubs_exp": 102,
+        "total_pubs_max": 144,
+        "ibm_pubs_exp": 102,
+        "ibm_pubs_max": 144,
+        "iqm_pubs_exp": 0,
+        "iqm_pubs_max": 0,
+        "readout_cal_pubs_exp": 24,
+        "readout_cal_pubs_max": 24,
+        "physical_shots_exp": 67584,
+        "physical_shots_max": 131072,
+        "ibm_seconds_exp": 47.0,
+        "ibm_seconds_max": 72.0,
+        "iqm_credits_exp": 0,
+        "iqm_credits_max": 0
+      },
+      "P4B_Prom_IQM": {
+        "total_jobs_exp": 12,
+        "total_jobs_max": 12,
+        "ibm_jobs_exp": 0,
+        "ibm_jobs_max": 0,
+        "iqm_jobs_exp": 12,
+        "iqm_jobs_max": 12,
+        "total_pubs_exp": 102,
+        "total_pubs_max": 144,
+        "ibm_pubs_exp": 0,
+        "ibm_pubs_max": 0,
+        "iqm_pubs_exp": 102,
+        "iqm_pubs_max": 144,
+        "readout_cal_pubs_exp": 24,
+        "readout_cal_pubs_max": 24,
+        "physical_shots_exp": 67584,
+        "physical_shots_max": 131072,
+        "ibm_seconds_exp": 0,
+        "ibm_seconds_max": 0,
+        "iqm_credits_exp": 46.5,
+        "iqm_credits_max": 69.0
+      },
+      "P4B_SABRE_IBM": {
+        "total_jobs_exp": 11,
+        "total_jobs_max": 11,
+        "ibm_jobs_exp": 11,
+        "ibm_jobs_max": 11,
+        "iqm_jobs_exp": 0,
+        "iqm_jobs_max": 0,
+        "total_pubs_exp": 250,
+        "total_pubs_max": 250,
+        "ibm_pubs_exp": 250,
+        "ibm_pubs_max": 250,
+        "iqm_pubs_exp": 0,
+        "iqm_pubs_max": 0,
+        "readout_cal_pubs_exp": 22,
+        "readout_cal_pubs_max": 22,
+        "physical_shots_exp": 248832,
+        "physical_shots_max": 248832,
+        "ibm_seconds_exp": 99.0,
+        "ibm_seconds_max": 99.0,
+        "iqm_credits_exp": 0,
+        "iqm_credits_max": 0
+      },
+      "P4B_SABRE_IQM": {
+        "total_jobs_exp": 11,
+        "total_jobs_max": 11,
+        "ibm_jobs_exp": 0,
+        "ibm_jobs_max": 0,
+        "iqm_jobs_exp": 11,
+        "iqm_jobs_max": 11,
+        "total_pubs_exp": 250,
+        "total_pubs_max": 250,
+        "ibm_pubs_exp": 0,
+        "ibm_pubs_max": 0,
+        "iqm_pubs_exp": 250,
+        "iqm_pubs_max": 250,
+        "readout_cal_pubs_exp": 22,
+        "readout_cal_pubs_max": 22,
+        "physical_shots_exp": 248832,
+        "physical_shots_max": 248832,
+        "ibm_seconds_exp": 0,
+        "ibm_seconds_max": 0,
+        "iqm_credits_exp": 108.0,
+        "iqm_credits_max": 108.0
+      }
+    }
+  },
+  "campaign_ceilings_with_15pct_reserve": {
+    "phase_4a_only": {
+      "ibm_seconds_ceiling": 552.0,
+      "ibm_pct_of_available": 43.95,
+      "ibm_remaining_seconds_after_ceiling": 704.0,
+      "iqm_credits_ceiling": 576.0,
+      "iqm_pct_of_available": 65.36,
+      "iqm_remaining_credits_after_ceiling": 305.25
+    },
+    "phase_4a_plus_4b_combined": {
+      "ibm_seconds_ceiling": 749.0,
+      "ibm_pct_of_available": 59.63,
+      "ibm_remaining_seconds_after_ceiling": 507.0,
+      "iqm_credits_ceiling": 779.25,
+      "iqm_pct_of_available": 88.43,
+      "iqm_remaining_credits_after_ceiling": 102.0
+    }
+  },
+  "jobs": [
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P1_SABRE_IBM_Primary",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P1_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "estimated_billed_cost": 11.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "estimated_billed_cost": 11.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P1_SABRE_IBM_Confirm",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P1_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P2_TKET_IBM_Primary",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P2_TKET_IBM",
+      "provider": "IBM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "estimated_billed_cost": 11.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "estimated_billed_cost": 11.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P2_TKET_IBM_Confirm",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P2_TKET_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P1_SABRE_IQM_Primary",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P1_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "estimated_billed_cost": 12.0,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "estimated_billed_cost": 12.0,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P1_SABRE_IQM_Confirm",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P1_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P2_TKET_IQM_Primary",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P2_TKET_IQM",
+      "provider": "IQM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "estimated_billed_cost": 12.0,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 1024,
+        "physical_shots": 28672,
+        "estimated_billed_cost": 12.0,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P2_TKET_IQM_Confirm",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P2_TKET_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P3_Prom_IBM_Rung1",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "adaptive_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 9,
+        "readout_cal_pubs": 2,
+        "total_pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P3_Prom_IBM_Rung2",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "adaptive_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 5,
+        "readout_cal_pubs": 2,
+        "total_pubs": 7,
+        "shots_per_pub": 512,
+        "physical_shots": 3584,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P3_Prom_IBM_Confirm",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 9,
+        "readout_cal_pubs": 2,
+        "total_pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P3_Prom_IQM_Rung1",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "adaptive_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 9,
+        "readout_cal_pubs": 2,
+        "total_pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 4.5,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P3_Prom_IQM_Rung2",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "adaptive_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 5,
+        "readout_cal_pubs": 2,
+        "total_pubs": 7,
+        "shots_per_pub": 512,
+        "physical_shots": 3584,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 4.5,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P3_Prom_IQM_Confirm",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 9,
+        "readout_cal_pubs": 2,
+        "total_pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 4.5,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P4_Prom_Fleet_IQM_Rung1",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P4_Prom_Fleet_IQM_Rung2",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 4,
+        "readout_cal_pubs": 2,
+        "total_pubs": 6,
+        "shots_per_pub": 512,
+        "physical_shots": 3072,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P4_Prom_Fleet_IQM_Confirm",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P4_Prom_Fleet_IBM_Rung1",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 9,
+        "readout_cal_pubs": 2,
+        "total_pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P4_Prom_Fleet_IBM_Rung2",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 5,
+        "readout_cal_pubs": 2,
+        "total_pubs": 7,
+        "shots_per_pub": 512,
+        "physical_shots": 3584,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Stage_4_0_Dev8_P4_Prom_Fleet_IBM_Confirm",
+      "stage_id": "Stage_4_0_Dev8",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 9,
+        "readout_cal_pubs": 2,
+        "total_pubs": 11,
+        "shots_per_pub": 512,
+        "physical_shots": 5632,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P1_SABRE_IBM_Primary",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P1_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P1_SABRE_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P1_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P2_TKET_IBM_Primary",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P2_TKET_IBM",
+      "provider": "IBM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P2_TKET_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P2_TKET_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P1_SABRE_IQM_Primary",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P1_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P1_SABRE_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P1_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P2_TKET_IQM_Primary",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P2_TKET_IQM",
+      "provider": "IQM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P2_TKET_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P2_TKET_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P3_Prom_IBM_Rung1",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "adaptive_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P3_Prom_IBM_Rung2",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "adaptive_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 13,
+        "readout_cal_pubs": 2,
+        "total_pubs": 15,
+        "shots_per_pub": 512,
+        "physical_shots": 7680,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P3_Prom_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P3_Prom_IQM_Rung1",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "adaptive_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P3_Prom_IQM_Rung2",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "adaptive_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 13,
+        "readout_cal_pubs": 2,
+        "total_pubs": 15,
+        "shots_per_pub": 512,
+        "physical_shots": 7680,
+        "estimated_billed_cost": 5.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P3_Prom_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P4_Prom_Fleet_IQM_Rung1",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P4_Prom_Fleet_IQM_Rung2",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 4.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P4_Prom_Fleet_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P4_Prom_Fleet_IBM_Rung1",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P4_Prom_Fleet_IBM_Rung2",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 13,
+        "readout_cal_pubs": 2,
+        "total_pubs": 15,
+        "shots_per_pub": 512,
+        "physical_shots": 7680,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_1_P4_Prom_Fleet_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_1",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P1_SABRE_IBM_Primary",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P1_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P1_SABRE_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P1_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P2_TKET_IBM_Primary",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P2_TKET_IBM",
+      "provider": "IBM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P2_TKET_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P2_TKET_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P1_SABRE_IQM_Primary",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P1_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P1_SABRE_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P1_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P2_TKET_IQM_Primary",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P2_TKET_IQM",
+      "provider": "IQM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P2_TKET_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P2_TKET_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P3_Prom_IBM_Rung1",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "adaptive_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P3_Prom_IBM_Rung2",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "adaptive_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 13,
+        "readout_cal_pubs": 2,
+        "total_pubs": 15,
+        "shots_per_pub": 512,
+        "physical_shots": 7680,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P3_Prom_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P3_Prom_IQM_Rung1",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "adaptive_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P3_Prom_IQM_Rung2",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "adaptive_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 13,
+        "readout_cal_pubs": 2,
+        "total_pubs": 15,
+        "shots_per_pub": 512,
+        "physical_shots": 7680,
+        "estimated_billed_cost": 5.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P3_Prom_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P4_Prom_Fleet_IQM_Rung1",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P4_Prom_Fleet_IQM_Rung2",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 4.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P4_Prom_Fleet_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P4_Prom_Fleet_IBM_Rung1",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P4_Prom_Fleet_IBM_Rung2",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 13,
+        "readout_cal_pubs": 2,
+        "total_pubs": 15,
+        "shots_per_pub": 512,
+        "physical_shots": 7680,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_2_P4_Prom_Fleet_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_2",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P1_SABRE_IBM_Primary",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P1_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P1_SABRE_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P1_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P2_TKET_IBM_Primary",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P2_TKET_IBM",
+      "provider": "IBM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 26.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P2_TKET_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P2_TKET_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 16.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P1_SABRE_IQM_Primary",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P1_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P1_SABRE_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P1_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P2_TKET_IQM_Primary",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P2_TKET_IQM",
+      "provider": "IQM",
+      "job_role": "primary_fixed_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 1024,
+        "physical_shots": 79872,
+        "estimated_billed_cost": 30.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P2_TKET_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P2_TKET_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 76,
+        "readout_cal_pubs": 2,
+        "total_pubs": 78,
+        "shots_per_pub": 512,
+        "physical_shots": 39936,
+        "estimated_billed_cost": 17.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P3_Prom_IBM_Rung1",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "adaptive_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P3_Prom_IBM_Rung2",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "adaptive_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 13,
+        "readout_cal_pubs": 2,
+        "total_pubs": 15,
+        "shots_per_pub": 512,
+        "physical_shots": 7680,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P3_Prom_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P3_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P3_Prom_IQM_Rung1",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "adaptive_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P3_Prom_IQM_Rung2",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "adaptive_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 13,
+        "readout_cal_pubs": 2,
+        "total_pubs": 15,
+        "shots_per_pub": 512,
+        "physical_shots": 7680,
+        "estimated_billed_cost": 5.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P3_Prom_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P3_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P4_Prom_Fleet_IQM_Rung1",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P4_Prom_Fleet_IQM_Rung2",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 4.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P4_Prom_Fleet_IQM_Confirm",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IQM",
+      "job_role": "fleet_iqm_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 512,
+        "physical_shots": 13312,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P4_Prom_Fleet_IBM_Rung1",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P4_Prom_Fleet_IBM_Rung2",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_rung2_escalation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 13,
+        "readout_cal_pubs": 2,
+        "total_pubs": 15,
+        "shots_per_pub": 512,
+        "physical_shots": 7680,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4A_Window_3_P4_Prom_Fleet_IBM_Confirm",
+      "stage_id": "Phase_4A_Window_3",
+      "policy_id": "P4_Prom_Fleet",
+      "provider": "IBM",
+      "job_role": "fleet_ibm_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 26,
+        "readout_cal_pubs": 2,
+        "total_pubs": 28,
+        "shots_per_pub": 512,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 36,
+        "readout_cal_pubs": 2,
+        "total_pubs": 38,
+        "shots_per_pub": 512,
+        "physical_shots": 19456,
+        "estimated_billed_cost": 9.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Init",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_init_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Step01",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Step02",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Step03",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Step04",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Step05",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Step06",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Step07",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Step08",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 10.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Final",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_final_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IBM_Confirm",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Init",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_init_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Step01",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Step02",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Step03",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Step04",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Step05",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Step06",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Step07",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Step08",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_plus_minus_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 24,
+        "readout_cal_pubs": 2,
+        "total_pubs": 26,
+        "shots_per_pub": 1024,
+        "physical_shots": 26624,
+        "estimated_billed_cost": 11.25,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Final",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_final_eval_1024",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_SABRE_IQM_Confirm",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_SABRE_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 4.5,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 512,
+        "physical_shots": 7168,
+        "estimated_billed_cost": 4.5,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Init",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_adaptive_init_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 4,
+        "readout_cal_pubs": 2,
+        "total_pubs": 6,
+        "shots_per_pub": 512,
+        "physical_shots": 3072,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 6,
+        "readout_cal_pubs": 2,
+        "total_pubs": 8,
+        "shots_per_pub": 512,
+        "physical_shots": 4096,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Step01",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Step02",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Step03",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Step04",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Step05",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Step06",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 1024,
+        "physical_shots": 10240,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Step07",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 1024,
+        "physical_shots": 10240,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Step08",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 1024,
+        "physical_shots": 10240,
+        "estimated_billed_cost": 5.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 7.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Final_Rung1",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_final_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 4,
+        "readout_cal_pubs": 2,
+        "total_pubs": 6,
+        "shots_per_pub": 512,
+        "physical_shots": 3072,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 6,
+        "readout_cal_pubs": 2,
+        "total_pubs": 8,
+        "shots_per_pub": 512,
+        "physical_shots": 4096,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Final_Rung2",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_final_rung2_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 2,
+        "readout_cal_pubs": 2,
+        "total_pubs": 4,
+        "shots_per_pub": 512,
+        "physical_shots": 2048,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 6,
+        "readout_cal_pubs": 2,
+        "total_pubs": 8,
+        "shots_per_pub": 512,
+        "physical_shots": 4096,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IBM_Confirm",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IBM",
+      "provider": "IBM",
+      "job_role": "spsa_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 4,
+        "readout_cal_pubs": 2,
+        "total_pubs": 6,
+        "shots_per_pub": 512,
+        "physical_shots": 3072,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IBM_quantum_seconds"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 6,
+        "readout_cal_pubs": 2,
+        "total_pubs": 8,
+        "shots_per_pub": 512,
+        "physical_shots": 4096,
+        "estimated_billed_cost": 4.0,
+        "billing_unit": "IBM_quantum_seconds"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Init",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_adaptive_init_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 4,
+        "readout_cal_pubs": 2,
+        "total_pubs": 6,
+        "shots_per_pub": 512,
+        "physical_shots": 3072,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 6,
+        "readout_cal_pubs": 2,
+        "total_pubs": 8,
+        "shots_per_pub": 512,
+        "physical_shots": 4096,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Step01",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Step02",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Step03",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Step04",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Step05",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 512,
+        "physical_shots": 5120,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Step06",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 1024,
+        "physical_shots": 10240,
+        "estimated_billed_cost": 5.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Step07",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 1024,
+        "physical_shots": 10240,
+        "estimated_billed_cost": 5.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Step08",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_adaptive_plus_minus",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 8,
+        "readout_cal_pubs": 2,
+        "total_pubs": 10,
+        "shots_per_pub": 1024,
+        "physical_shots": 10240,
+        "estimated_billed_cost": 5.25,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 12,
+        "readout_cal_pubs": 2,
+        "total_pubs": 14,
+        "shots_per_pub": 1024,
+        "physical_shots": 14336,
+        "estimated_billed_cost": 6.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Final_Rung1",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_final_rung1_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 4,
+        "readout_cal_pubs": 2,
+        "total_pubs": 6,
+        "shots_per_pub": 512,
+        "physical_shots": 3072,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 6,
+        "readout_cal_pubs": 2,
+        "total_pubs": 8,
+        "shots_per_pub": 512,
+        "physical_shots": 4096,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Final_Rung2",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_final_rung2_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 2,
+        "readout_cal_pubs": 2,
+        "total_pubs": 4,
+        "shots_per_pub": 512,
+        "physical_shots": 2048,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 6,
+        "readout_cal_pubs": 2,
+        "total_pubs": 8,
+        "shots_per_pub": 512,
+        "physical_shots": 4096,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      }
+    },
+    {
+      "job_manifest_id": "Phase_4B_SPSA_8Steps_P4B_Prom_IQM_Confirm",
+      "stage_id": "Phase_4B_SPSA_8Steps",
+      "policy_id": "P4B_Prom_IQM",
+      "provider": "IQM",
+      "job_role": "spsa_confirmation_512",
+      "expected": {
+        "jobs": 1,
+        "qwc_pubs": 4,
+        "readout_cal_pubs": 2,
+        "total_pubs": 6,
+        "shots_per_pub": 512,
+        "physical_shots": 3072,
+        "estimated_billed_cost": 3.0,
+        "billing_unit": "IQM_credits"
+      },
+      "worst_case_max": {
+        "jobs": 1,
+        "qwc_pubs": 6,
+        "readout_cal_pubs": 2,
+        "total_pubs": 8,
+        "shots_per_pub": 512,
+        "physical_shots": 4096,
+        "estimated_billed_cost": 3.75,
+        "billing_unit": "IQM_credits"
+      }
+    }
+  ],
+  "canonical_payload_sha256": "3b65695d4d7ff822107c6fc9c822149095e47f239a6bf012f226148ad1b6fee9"
+}

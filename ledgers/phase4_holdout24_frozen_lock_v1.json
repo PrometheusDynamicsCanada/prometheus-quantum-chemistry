@@ -1,0 +1,117 @@
+{
+  "schema_version": "phase4-holdout24-frozen-lock-v1",
+  "frozen_at_utc": "2026-11-14T15:03:50.330419+00:00",
+  "status": "FROZEN_PRE_HOLDOUT_SPECIFICATION_PENDING_LIVE_QPU_LAUNCH_AUTH",
+  "calibrated_solely_on": "Cohort Chem-Dev-8 (Stage 4.0 Live Hardware Pilot: 20 QPU jobs, 353 PUBs, 238,080 physical shots)",
+  "holdout_configs_inspected_or_executed": 0,
+  "upstream_preregistration_v2_file_sha256": "34fe8b70274c3d5569c331302eaecde2c095fbcd31d965fb6708c79150f64ffa",
+  "upstream_submission_manifest_v2_file_sha256": "ea393602b2b123a64f96027a31cb32f1e3cb65728d5270af82078ae615744134",
+  "primary_accuracy_target_mha": 25.0,
+  "secondary_sensitivity_targets_mha": [
+    15.0,
+    20.0,
+    35.0
+  ],
+  "frozen_dual_estimators": {
+    "applied_identically_across_all_policies": [
+      "P1_SABRE_IBM",
+      "P2_TKET_IBM",
+      "P3_Prom_IBM",
+      "P1_SABRE_IQM",
+      "P2_TKET_IQM",
+      "P3_Prom_IQM",
+      "P4_Prom_Fleet"
+    ],
+    "estimator_1_frozen_dev_derived": {
+      "id": "PauliWeight_SymREM_ZeroParam",
+      "origin_status": "Developed post-hoc on Chem-Dev-8; frozen prior to any Chem-Holdout-24 execution for out-of-sample prospective validation",
+      "free_fitted_parameters": 0,
+      "uses_reference_energy_at_runtime": false,
+      "model_assumptions_and_exact_clipping_rules": {
+        "noise_model": "Effective global depolarizing channel on Z sector + Pauli-weight (w/M) depolarizing damping on non-Z groups + product single-qubit readout confusion channel",
+        "readout_flip_rate_clip": [
+          0.0,
+          0.45
+        ],
+        "readout_confusion_denominator_floor": 0.1,
+        "sector_retention_denominator_floor": 0.05,
+        "p_surv_clip": [
+          0.2,
+          1.0
+        ],
+        "alpha_sig_clip": [
+          0.25,
+          1.0
+        ],
+        "non_z_p_w_floor": 0.35,
+        "pauli_expectation_clip": [
+          -1.0,
+          1.0
+        ],
+        "min_valid_z_shots_for_sector_rescaling": 8
+      }
+    },
+    "estimator_2_original_preregistered": {
+      "id": "Raw_SectorPostSelected_ConfusionInversion_v2_0",
+      "origin_status": "Original pre-registered v2.0 estimator retained side-by-side on all 24 holdout configurations and paired tests",
+      "uses_reference_energy_at_runtime": false
+    }
+  },
+  "frozen_rung1_stopping_gate": {
+    "rung_ladder_shots": [
+      512,
+      1024
+    ],
+    "standalone_confirmation_shots": 512,
+    "stop_criterion": "hw975_sym_rem_mha <= 20.0 AND z_symmetry_retention >= 0.78",
+    "sigma_stop_hw975_sym_rem_mha": 20.0,
+    "z_symmetry_retention_min": 0.78,
+    "joint_bootstrap_replicates": 1000
+  },
+  "frozen_h1_spatial_packing_rule": {
+    "min_graph_distance_d_G": 2,
+    "max_qwc_slices_per_pub": 3,
+    "strict_intra_molecule_isolation": true,
+    "extra_duration_cap_fallback_required": false
+  },
+  "frozen_h2_p4_fleet_routing_rule": {
+    "mode": "TopologyAware_IntactMoleculeSplit",
+    "deterministic_dispatch_predicate": "Route intact 3-way or (3+2) molecule packs to IBM Heron when (n_qubits == 4 or model_type startswith JW); route intact 3-way molecule packs to IQM emerald when (n_qubits >= 6 and model_type == DOCI)",
+    "executed_as_independent_live_jobs": true,
+    "rationale": "Preserves 3-way DOCI packing (-38.1% PUBs vs GroupSplit on Dev-8: 63 -> 39 PUBs) and prospectively tests with live independent hardware billing what was only a reconstructed counterfactual in Stage 4.0; single-provider P3_Prom_IBM and P3_Prom_IQM also allow offline comparison against GroupSplit."
+  },
+  "statistical_plan_holdout24": {
+    "primary_unit_of_inference": "N = 24 paired molecular configurations averaged across W = 3 separated execution windows",
+    "paired_tests": [
+      "Exact Pratt-adjusted Wilcoxon signed-rank test",
+      "B = 10,000 PUB-cluster-preserving bootstrap & 20,000-draw sign-flip permutation"
+    ],
+    "multiplicity_correction": "Holm-Bonferroni step-down across primary policy comparisons"
+  },
+  "calibrated_budget_and_account_plan": {
+    "verified_remaining_ibm_seconds": {
+      "Account_C": 375.0,
+      "Account_B": 423.0,
+      "Account_A": 402.0,
+      "Total": 1200.0
+    },
+    "verified_remaining_iqm_credits": {
+      "IQM_Account_1_exp_2027_02_03": 100.25,
+      "IQM_Account_2_exp_2027_02_15": 730.0,
+      "Total": 830.25
+    },
+    "iqm_drain_order": [
+      "IQM_Account_1",
+      "IQM_Account_2"
+    ],
+    "phase_4a_3windows_expected": {
+      "ibm_seconds": 342.0,
+      "iqm_credits": 366.75
+    },
+    "phase_4a_3windows_max": {
+      "ibm_seconds": 354.0,
+      "iqm_credits": 389.25
+    }
+  },
+  "frozen_lock_payload_sha256": "aa8f3a62fddcdb79f7f946100c1d678ce90ee11040ca82b6c32c362d18733a65"
+}

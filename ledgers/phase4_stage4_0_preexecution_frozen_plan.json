@@ -1,0 +1,232 @@
+{
+  "schema_version": "phase4-stage4-0-dev8-frozen-plan-v1",
+  "frozen_at_utc": "2026-11-14T12:29:03.363146+00:00",
+  "holdout_configs_touched": 0,
+  "selected_prometheus_ibm_qpu": "ibm_fez",
+  "selected_prometheus_iqm_qpu": "emerald",
+  "wave1_pub_counts": {
+    "P1_SABRE_IBM_Primary": 28,
+    "P2_TKET_IBM_Primary": 28,
+    "P3_Prom_IBM_Rung1": 11,
+    "P4_Prom_Fleet_IBM_Rung1": 11,
+    "P1_SABRE_IQM_Primary": 28,
+    "P2_TKET_IQM_Primary": 28,
+    "P3_Prom_IQM_Rung1": 11,
+    "P4_Prom_Fleet_IQM_Rung1": 10
+  },
+  "h1_scheduled_duration_audit": [
+    {
+      "config_id": "M_Dev_01",
+      "pack_index": 0,
+      "groups": [
+        "Z",
+        "G1",
+        "G2"
+      ],
+      "ibm_qpu": "ibm_fez",
+      "ibm_tau_sched_ns_per_slice": [
+        276.0,
+        276.0,
+        436.0
+      ],
+      "ibm_spread_ns": 160.0,
+      "ibm_mismatch_ratio": 0.367,
+      "iqm_tau_sched_ns_per_slice": [
+        720.0,
+        680.0,
+        680.0
+      ],
+      "iqm_spread_ns": 40.0,
+      "iqm_mismatch_ratio": 0.0556
+    },
+    {
+      "config_id": "M_Dev_01",
+      "pack_index": 1,
+      "groups": [
+        "G3",
+        "G4"
+      ],
+      "ibm_qpu": "ibm_fez",
+      "ibm_tau_sched_ns_per_slice": [
+        276.0,
+        276.0
+      ],
+      "ibm_spread_ns": 0.0,
+      "ibm_mismatch_ratio": 0.0,
+      "iqm_tau_sched_ns_per_slice": [
+        720.0,
+        720.0
+      ],
+      "iqm_spread_ns": 0.0,
+      "iqm_mismatch_ratio": 0.0
+    },
+    {
+      "config_id": "M_Dev_02",
+      "pack_index": 0,
+      "groups": [
+        "Z",
+        "X",
+        "Y"
+      ],
+      "ibm_qpu": "ibm_fez",
+      "ibm_tau_sched_ns_per_slice": [
+        900.0,
+        876.0,
+        504.0
+      ],
+      "ibm_spread_ns": 396.0,
+      "ibm_mismatch_ratio": 0.44,
+      "iqm_tau_sched_ns_per_slice": [
+        720.0,
+        720.0,
+        720.0
+      ],
+      "iqm_spread_ns": 0.0,
+      "iqm_mismatch_ratio": 0.0
+    },
+    {
+      "config_id": "M_Dev_03",
+      "pack_index": 0,
+      "groups": [
+        "Z",
+        "X",
+        "Y"
+      ],
+      "ibm_qpu": "ibm_fez",
+      "ibm_tau_sched_ns_per_slice": [
+        1960.0,
+        1960.0,
+        1576.0
+      ],
+      "ibm_spread_ns": 384.0,
+      "ibm_mismatch_ratio": 0.1959,
+      "iqm_tau_sched_ns_per_slice": [
+        2000.0,
+        1880.0,
+        2000.0
+      ],
+      "iqm_spread_ns": 120.0,
+      "iqm_mismatch_ratio": 0.06
+    },
+    {
+      "config_id": "M_Dev_04",
+      "pack_index": 0,
+      "groups": [
+        "Z",
+        "X",
+        "Y"
+      ],
+      "ibm_qpu": "ibm_fez",
+      "ibm_tau_sched_ns_per_slice": [
+        1320.0,
+        1616.0,
+        1296.0
+      ],
+      "ibm_spread_ns": 320.0,
+      "ibm_mismatch_ratio": 0.198,
+      "iqm_tau_sched_ns_per_slice": [
+        1720.0,
+        1720.0,
+        1680.0
+      ],
+      "iqm_spread_ns": 40.0,
+      "iqm_mismatch_ratio": 0.0233
+    },
+    {
+      "config_id": "M_Dev_05",
+      "pack_index": 0,
+      "groups": [
+        "Z",
+        "X",
+        "Y"
+      ],
+      "ibm_qpu": "ibm_fez",
+      "ibm_tau_sched_ns_per_slice": [
+        3712.0,
+        3276.0,
+        3784.0
+      ],
+      "ibm_spread_ns": 508.0,
+      "ibm_mismatch_ratio": 0.1342,
+      "iqm_tau_sched_ns_per_slice": [
+        3480.0,
+        3360.0,
+        3400.0
+      ],
+      "iqm_spread_ns": 120.0,
+      "iqm_mismatch_ratio": 0.0345
+    },
+    {
+      "config_id": "M_Dev_06",
+      "pack_index": 0,
+      "groups": [
+        "Z",
+        "X",
+        "Y"
+      ],
+      "ibm_qpu": "ibm_fez",
+      "ibm_tau_sched_ns_per_slice": [
+        2888.0,
+        3044.0,
+        2816.0
+      ],
+      "ibm_spread_ns": 228.0,
+      "ibm_mismatch_ratio": 0.0749,
+      "iqm_tau_sched_ns_per_slice": [
+        4080.0,
+        3760.0,
+        3840.0
+      ],
+      "iqm_spread_ns": 320.0,
+      "iqm_mismatch_ratio": 0.0784
+    },
+    {
+      "config_id": "M_Dev_07",
+      "pack_index": 0,
+      "groups": [
+        "Z",
+        "X",
+        "Y"
+      ],
+      "ibm_qpu": "ibm_fez",
+      "ibm_tau_sched_ns_per_slice": [
+        1272.0,
+        1640.0,
+        1272.0
+      ],
+      "ibm_spread_ns": 368.0,
+      "ibm_mismatch_ratio": 0.2244,
+      "iqm_tau_sched_ns_per_slice": [
+        1760.0,
+        1840.0,
+        1680.0
+      ],
+      "iqm_spread_ns": 160.0,
+      "iqm_mismatch_ratio": 0.087
+    },
+    {
+      "config_id": "M_Dev_08",
+      "pack_index": 0,
+      "groups": [
+        "Z",
+        "X",
+        "Y"
+      ],
+      "ibm_qpu": "ibm_fez",
+      "ibm_tau_sched_ns_per_slice": [
+        4768.0,
+        4664.0,
+        5720.0
+      ],
+      "ibm_spread_ns": 1056.0,
+      "ibm_mismatch_ratio": 0.1846,
+      "iqm_tau_sched_ns_per_slice": [
+        5200.0,
+        5000.0,
+        6280.0
+      ],
+      "iqm_spread_ns": 1280.0,
+      "iqm_mismatch_ratio": 0.2038
+    }
+  ]
+}
