@@ -6,12 +6,12 @@
 
 - **The question:** Can quantum chemistry workflows reach verified molecular-energy accuracy (`<= 25.0 mHa` error in two independent hardware runs) while spending substantially less billed QPU time and credits?
 - **The test:** Across `172` live QPU jobs (`4,812` PUBs, `3,756,032` physical shots on `156Q` `ibm_fez` and `54Q` `IQM Emerald`), we compared Prometheus (`3-way` spatial packing + adaptive measurement stopping) against isolated `1-way` Qiskit SABRE O3 and Quantinuum TKET on `24` unseen `4Q-8Q` molecular configurations (`3` repeats each) and `6` cold-start iterative `SPSA` optimizations.
-- **The finding:** On the `24` unseen molecular configurations, Prometheus cut billed hardware cost per confirmed result by **`51.8%` to `54.7%` on IBM** (`1.04 s` vs. `2.16-2.30 s`) and **`58.9%` to `61.0%` on IQM** (`1.23 cr` vs. `3.00-3.16 cr`). During live iterative `SPSA` optimization, billed cost fell **`52.8%` to `68.5%` on IBM** (`9.20 s` vs. `19.50-29.25 s`) and **`60.0%` to `60.7%` on IQM** (`12.75 cr` vs. `31.88-32.44 cr`), with **`49/49` early stops confirmed**.
+- **The finding:** Compared strictly against the best baseline (`min(SABRE O3, TKET)`) in each test, Prometheus cut billed hardware cost per confirmed result on the `24` unseen molecular configurations by **`51.8%` on IBM** (`1.04 s` vs. `2.16 s` best baseline TKET; SABRE `2.30 s`) and **`58.9%` on IQM** (`1.23 cr` vs. `3.00 cr` best baseline SABRE; TKET `3.16 cr`). During live iterative `SPSA` optimization, billed cost fell **`52.8%` vs. best baseline TKET on IBM** (`9.20 s` vs. `19.50 s`) and **`60.0%` vs. best baseline SABRE on IQM** (`12.75 cr` vs. `31.88 cr`), with **`49/49` early stops confirmed**.
 - **The significance:** Chemistry and materials R&D teams can evaluate roughly twice as many bond geometries or optimization steps within the same cloud hardware allocation.
 - **The boundary:** Savings measure provider-billed QPU resources on `4Q-8Q` benchmark active spaces (excluding classical compute and wet-lab validation); splitting circuits across two clouds trailed single-processor execution (`42/72` vs. `49/72` confirmed).
 - **The evidence:** Simplified cost comparison chart and summary table below, with full `Phase 4A`, `4B`, and `Stage 4.0` ledgers and multi-panel figures underneath.
 
-![Prometheus reduced billed QPU resources by 52% to 61% per confirmed chemistry result](./figures/fig0_simple_chemistry_cost.png)
+![Prometheus reduced billed QPU resources by 52% to 59% vs. the best baseline](./figures/fig0_simple_chemistry_cost.png)
 *Opening summary (`Phase 4A` Holdout-24, `N = 60` live jobs): Billed IBM seconds and IQM credits per dual-wave confirmed `<= 25.0 mHa` molecular-energy calculation.*
 
 ---
@@ -22,10 +22,10 @@
 
 | Stage & Provider (`QPU`) | Qiskit SABRE Cost/Accepted `(↓)` | Quantinuum TKET Cost/Accepted `(↓)` | Prometheus Cost/Accepted `(↓)` | Mean `2Q` Gates / Depth (`Prom`) `(↓)` | Symmetry $\eta_{\text{sym}}$ `*(mean)*` (`Prom`) `(↑)` | Cost Delta vs. Best Baseline `(↓)` |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **`Phase 4A` Holdout-24 (`ibm_fez`)** | `2.298 s` (`47/72` conf) | `2.160 s` (`50/72` conf) | **`1.041 s`** (`49/72` conf) | **`30.17` / `70.36`** | **`0.8277`** | **`-51.8%` vs. TKET (`-54.7%` vs. S)** |
-| **`Phase 4A` Holdout-24 (`IQM Emerald`)** | `3.000 cr` (`41/72` conf) | `3.158 cr` (`38/72` conf) | **`1.233 cr`** (**`45/72`** conf) | `20.58` / **`43.18`** | **`0.7928`** | **`-58.9%` vs. SABRE (`-61.0%` vs. T)** |
-| **`Phase 4B` Live `SPSA` (`ibm_fez`)** | `29.25 s` (`4/6` strict) | `19.50 s` (**`6/6`** strict) | **`9.20 s`** (`5/6` strict) | **`15.61` / `43.39`** | **`0.869`** | **`-52.8%` vs. TKET (`-68.5%` vs. S)** |
-| **`Phase 4B` Live `SPSA` (`IQM Emerald`)** | `31.88 cr` (`4/6` strict) | `32.44 cr` (`4/6` strict) | **`12.75 cr`** (`4/6` strict) | **`13.83` / `30.11`** | `0.832` | **`-60.0%` vs. SABRE (`-60.7%` vs. T)** |
+| **`Phase 4A` Holdout-24 (`ibm_fez`)** | `2.298 s` (`47/72` conf) | `2.160 s` (`50/72` conf) | **`1.041 s`** (`49/72` conf) | **`30.17` / `70.36`** | **`0.8277`** | **`-51.8%` vs. best base TKET** |
+| **`Phase 4A` Holdout-24 (`IQM Emerald`)** | `3.000 cr` (`41/72` conf) | `3.158 cr` (`38/72` conf) | **`1.233 cr`** (**`45/72`** conf) | `20.58` / **`43.18`** | **`0.7928`** | **`-58.9%` vs. best base SABRE** |
+| **`Phase 4B` Live `SPSA` (`ibm_fez`)** | `29.25 s` (`4/6` strict) | `19.50 s` (**`6/6`** strict) | **`9.20 s`** (`5/6` strict) | **`15.61` / `43.39`** | **`0.869`** | **`-52.8%` vs. best base TKET** |
+| **`Phase 4B` Live `SPSA` (`IQM Emerald`)** | `31.88 cr` (`4/6` strict) | `32.44 cr` (`4/6` strict) | **`12.75 cr`** (`4/6` strict) | **`13.83` / `30.11`** | `0.832` | **`-60.0%` vs. best base SABRE** |
 
 *Metric Key:* Pre-submission subcircuits verified noiseless output-distribution agreement $F_B > 0.999999$ ($F_H = F_B^2 > 0.999998$). IBM seconds (`s`) and IQM credits (`cr`) are native provider billing units without cross-currency conversion.
 
