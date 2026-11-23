@@ -10,7 +10,7 @@
     "DATA_DICTIONARY.md": "c9c363c6cb2436f105f80d4ce36d7e3d907450ebc144f6dc5f3ddd7e3e2af595",
     "LICENSE": "a214fc704360fbd5de37600c8e7f97872cef5c021d6605a554a27fb093ad5ea6",
     "PUBLIC_DISCLOSURE.md": "9745acf6c21e507b6d923be833becd019efeff117b1af1ca2a53d4e2c549f98e",
-    "README.md": "dae4dd5ff93602e158be96b00a9083a359aa4cbf70e0751c4b7f8a560670762c",
+    "README.md": "b76662bd28e42c698a89b964db35460caa6b78f114d129b8b831617203d08225",
     "figures/fig0_opening_chemistry_charged_cost.png": "0513cfcdc291bb1b3a820e3a65ea9f7dddb057f86f149ee016dbc34dad54566c",
     "figures/fig1_phase4_capstone_cost_to_accuracy_across_stages.png": "e8e582f5ca3374c19588bf2e15cd6520f9ae45b7720e3734490aacf0fb895d8e",
     "figures/fig1_phase4a_holdout24_cost_to_accuracy.png": "666f89ad8bee1fe49b46ec2d9387cc45a782b546a43c2a0c4454b7b4b11607a0",
@@ -43,6 +43,7 @@
     "reports/phase4a_holdout24_campaign_report.md": "4c97474ad1a7e00f638b5cd9d378fefc97b05b76be015c42a4deaa1c373e15df",
     "reports/phase4b_iterative_spsa_campaign_report.md": "e81138b70deb28d599f35e1b16e37fd44b8e5974dce3f2a87302d2ba9b8d4fd0",
     "reports/prometheus_phase4_capstone_evidence_release.md": "774ccc4c41521875feb18904036482333f7fb22d220a405835f4000bbb667c06",
-    "scripts/verify_phase4_public_release.py": "b67e7c4c137c9c8c3b5a0c2636c8fa67f281ebc4250cd309ecdab5691e0f1adb"
+    "scripts/verify_phase4_public_release.py": "b67e7c4c137c9c8c3b5a0c2636c8fa67f281ebc4250cd309ecdab5691e0f1adb",
+    "figures/fig0_simple_chemistry_cost.png": "0945172381026bef191bc9b329f13e40d5d32a29bbc5415465d5f128118bbcce"
   }
 }
