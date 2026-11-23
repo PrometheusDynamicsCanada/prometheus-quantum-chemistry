@@ -1,6 +1,6 @@
 # Quantum Chemistry: Lower Hardware Cost per Accepted Molecular-Energy Result
 
-*Explore the portfolio: [Prometheus Quantum Overview](https://github.com/PrometheusDynamicsCanada/prometheus-quantum-overview)*
+*Explore the portfolio: [Prometheus Quantum Overview](https://github.com/PrometheusDynamicsCanada/prometheus-quantum-overview) · Additional spin-orbital Jordan-Wigner `4Q H2` (`-69.23%` QPU time, `10.04 mHa` Sym error) and `6Q LiH CAS(2e,3o)` (`-37.41%` off-diagonal correlation error, `88.24%` spin-sector retention) benchmarks are archived in [`prometheus-circuit-complexity-atlas`](https://github.com/PrometheusDynamicsCanada/prometheus-circuit-complexity-atlas).*
 
 **We tested whether Prometheus could reduce the hardware resources needed to obtain an accepted molecular-energy result. In the tested workflows, it substantially reduced that cost, including when live hardware measurements guided optimization.**
 
