@@ -1,6 +1,6 @@
 # Quantum Chemistry: Lower QPU Cost per Confirmed Molecular Energy
 
-*Portfolio Hub: [Prometheus Quantum Overview](https://github.com/PrometheusDynamicsCanada/prometheus-quantum-overview) · [Complexity Atlas (`H2` & `LiH`)](https://github.com/PrometheusDynamicsCanada/prometheus-circuit-complexity-atlas) · [Full Capstone Report](reports/prometheus_phase4_capstone_evidence_release.md)*
+*Portfolio Hub: [Prometheus Quantum Overview](https://github.com/PrometheusDynamicsCanada/prometheus-quantum-overview) · [Complexity Atlas (`H2`, `LiH` & `Linear H4`)](https://github.com/PrometheusDynamicsCanada/prometheus-circuit-complexity-atlas) · [Full Capstone Report](reports/prometheus_phase4_capstone_evidence_release.md)*
 
 ## Introduction
 
