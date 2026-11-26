@@ -1,26 +1,28 @@
 # Quantum Chemistry: Lower QPU Cost per Confirmed Molecular Energy
 
-*Portfolio Hub: [Prometheus Quantum Overview](https://github.com/PrometheusDynamicsCanada/prometheus-quantum-overview) · [Complexity Atlas (`H2`, `LiH` & `Linear H4`)](https://github.com/PrometheusDynamicsCanada/prometheus-circuit-complexity-atlas) · [Full Capstone Report](reports/prometheus_phase4_capstone_evidence_release.md)*
+*Portfolio Hub: [Prometheus Quantum Overview](https://github.com/PrometheusDynamicsCanada/prometheus-quantum-overview) · [Complexity Atlas (H2, LiH & Linear H4)](https://github.com/PrometheusDynamicsCanada/prometheus-circuit-complexity-atlas) · [Full Capstone Report](reports/prometheus_phase4_capstone_evidence_release.md)*
 
-## Introduction
+Quantum chemistry workflows require many circuit evaluations across bond geometries and optimizer steps, quickly exhausting cloud hardware budgets. We tested whether combining multi-circuit packing and early measurement stopping with Prometheus compilation could reach confirmed molecular-energy accuracy (within 25.0 mHa in two independent hardware runs) at lower billed QPU cost.
 
-- **The question:** Can quantum chemistry workflows reach verified molecular-energy accuracy (`<= 25.0 mHa` error in two independent hardware runs) while spending substantially less billed QPU time and credits?
-- **The test:** Across `172` live QPU jobs (`4,812` PUBs, `3,756,032` physical shots on `156Q` `ibm_fez` and `54Q` `IQM Emerald`), we compared Prometheus (`3-way` spatial packing + adaptive measurement stopping) against isolated `1-way` Qiskit SABRE O3 and Quantinuum TKET on `24` unseen `4Q-8Q` molecular configurations (`3` repeats each) and `6` cold-start iterative `SPSA` optimizations.
-- **The finding:** Compared strictly against the best baseline (`min(SABRE O3, TKET)`) in each test, Prometheus cut billed hardware cost per confirmed result on the `24` unseen molecular configurations by **`51.8%` on IBM** (`1.04 s` vs. `2.16 s` best baseline TKET; SABRE `2.30 s`) and **`58.9%` on IQM** (`1.23 cr` vs. `3.00 cr` best baseline SABRE; TKET `3.16 cr`). During live iterative `SPSA` optimization, billed cost fell **`52.8%` vs. best baseline TKET on IBM** (`9.20 s` vs. `19.50 s`) and **`60.0%` vs. best baseline SABRE on IQM** (`12.75 cr` vs. `31.88 cr`), with **`49/49` early stops confirmed**.
-- **The significance:** Chemistry and materials R&D teams can evaluate roughly twice as many bond geometries or optimization steps within the same cloud hardware allocation.
-- **The boundary:** Savings measure provider-billed QPU resources on `4Q-8Q` benchmark active spaces (excluding classical compute and wet-lab validation); splitting circuits across two clouds trailed single-processor execution (`42/72` vs. `49/72` confirmed).
-- **The evidence:** Simplified cost comparison chart and summary table below, with full `Phase 4A`, `4B`, and `Stage 4.0` ledgers and multi-panel figures underneath.
+Across 24 unseen 4-to-8-qubit molecular configurations and six live iterative SPSA optimizations on 156-qubit IBM Fez and 54-qubit IQM Emerald, Prometheus reduced billed hardware cost per confirmed result by 51.8% to 52.8% on IBM and by 58.9% to 60.0% on IQM compared strictly against the strongest tested baseline in each stage (Qiskit SABRE O3 or Quantinuum TKET). All 49 early-stopped runs passed independent confirmation, allowing chemistry teams to evaluate roughly twice as many configurations within the same QPU allocation.
+
+Savings measure provider-billed QPU seconds and credits on 4-to-8-qubit benchmark active spaces rather than wet-lab discovery or classical compute cost, and splitting single workloads across two clouds trailed single-processor execution (42 of 72 vs. 49 of 72 confirmed).
+
+This repository contains the results, optimizer trajectories, and offline verification tools from 172 completed hardware jobs (3.76 million measurement shots).
 
 ![Prometheus reduced billed QPU resources by 52% to 59% vs. the best baseline](./figures/fig0_simple_chemistry_cost.png)
-*Opening summary (`Phase 4A` Holdout-24, `N = 60` live jobs): Billed IBM seconds and IQM credits per dual-wave confirmed `<= 25.0 mHa` molecular-energy calculation.*
+*Summary figure: Billed IBM seconds and IQM credits per dual-run confirmed molecular-energy calculation across 24 unseen configurations (60 holdout jobs).*
+
+**[Read the detailed results](#detailed-results) · [Verify the data](#verify-the-data) · [Request an evaluation](https://prometheusdynamics.ca/connect/) · [Book a demonstration](mailto:william@prometheusdynamics.ca?subject=Prometheus%20Chemistry%20Evaluation)**
 
 ---
 
+<a id="detailed-results"></a>
 ## Executive Summary (`Phase 4A` Holdout-24 & `Phase 4B` Live `SPSA`, `N = 152` Primary + `20` Pilot = `172` Jobs)
 
 *Hardware IDs:* IBM `dbs58k1abdes73fqotc0`..`dbsdlc6jjaos73ak2fq0` (`675.0 s`) & IQM `01a1da09-740c..`..`01a1dc16-6acb..` (`735.75 cr`) in [`phase4_master_172_job_ledger.csv`](./ledgers/phase4_master_172_job_ledger.csv).
 
-| Stage & Provider (`QPU`) | Qiskit SABRE Cost/Accepted `(↓)` | Quantinuum TKET Cost/Accepted `(↓)` | Prometheus Cost/Accepted `(↓)` | Mean `2Q` Gates / Depth (`Prom`) `(↓)` | Symmetry $\eta_{\text{sym}}$ `*(mean)*` (`Prom`) `(↑)` | Cost Delta vs. Best Baseline `(↓)` |
+| Stage & Provider (`QPU`) | Qiskit SABRE Cost/Accepted `(↓)` | Quantinuum TKET Cost/Accepted `(↓)` | Prometheus Cost/Accepted `(↓)` | Mean `2Q` Gates / Depth (`Prom`) `(↓)` | Symmetry $\eta_{\text{sym}}$ *(mean)* (`Prom`) `(↑)` | Cost Delta vs. Best Baseline `(↓)` |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **`Phase 4A` Holdout-24 (`ibm_fez`)** | `2.298 s` (`47/72` conf) | `2.160 s` (`50/72` conf) | **`1.041 s`** (`49/72` conf) | **`30.17` / `70.36`** | **`0.8277`** | **`-51.8%` vs. best base TKET** |
 | **`Phase 4A` Holdout-24 (`IQM Emerald`)** | `3.000 cr` (`41/72` conf) | `3.158 cr` (`38/72` conf) | **`1.233 cr`** (**`45/72`** conf) | `20.58` / **`43.18`** | **`0.7928`** | **`-58.9%` vs. best base SABRE** |
@@ -31,11 +33,12 @@
 
 ---
 
+<a id="verify-the-data"></a>
 ## Inspect the Evidence & Reproduce Supported Checks Offline
 
 - **Command:** `python scripts/verify_phase4_public_release.py`
 - **Dependencies & measured runtime:** Python 3 + `numpy` + `scipy` (`0` cloud credentials, **`~0.80 s`** measured runtime; verifies `172`-job billing arithmetic, Wilcoxon tests, `42` `SPSA` trajectories with `0.00e+00 rad` drift, and SHA-256 manifests).
-- **Start a pilot:** [william@prometheusdynamics.ca](mailto:william@prometheusdynamics.ca) | [prometheusdynamics.ca](https://prometheusdynamics.ca)
+- **Request an evaluation or book a demonstration:** [prometheusdynamics.ca/connect](https://prometheusdynamics.ca/connect/) | [william@prometheusdynamics.ca](mailto:william@prometheusdynamics.ca?subject=Prometheus%20Evaluation)
 
 ---
 
@@ -45,7 +48,7 @@
 <summary><strong>1. Complete Per-Policy Tables (Sym-REM & Raw v2.0 Medians/Means, Shots, PUBs, and Dual-Cloud Fleet Splits) - Click to expand</strong></summary>
 
 ### Table 1A: `Phase 4A` Prospective Fixed-Circuit Holdout (`Cohort Chem-Holdout-24`, `N = 60` Jobs, `2,585` PUBs, `1,802,752` Shots Across `3` Windows = `72` Evals/Policy)
-| Policy Arm (`QPU`) | Jobs / PUBs / Shots `(↓)` | `2Q` `*(med / mean)*` `(↓)` | Depth `*(med / mean)*` `(↓)` | $\eta_{\text{sym}}$ `*(med / mean)*` `(↑)` | `Sym-REM` Conf / `mHa` `*(med / mean)*` `(↓)` | `Raw v2.0` Conf / `mHa` `*(med / mean)*` `(↓)` | Settled Spend `(↓)` | Cost / Conf (`Sym` / `Raw`) `(↓)` |
+| Policy Arm (`QPU`) | Jobs / PUBs / Shots `(↓)` | `2Q` *(med / mean)* `(↓)` | Depth *(med / mean)* `(↓)` | $\eta_{\text{sym}}$ *(med / mean)* `(↑)` | `Sym-REM` Conf / `mHa` *(med / mean)* `(↓)` | `Raw v2.0` Conf / `mHa` *(med / mean)* `(↓)` | Settled Spend `(↓)` | Cost / Conf (`Sym` / `Raw`) `(↓)` |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **`P1_SABRE_IBM`** | `6` / `468` / `359,424` | `28.0` / `30.59` | `68.0` / `77.58` | `0.8369` / `0.8101` | `47/72` (`10.20` / `21.80`) | `12/72` (`66.46` / `71.94`) | `108.0 s` | `2.298 s` / `9.000 s` |
 | **`P2_TKET_IBM`** | `6` / `468` / `359,424` | **`26.0`** / `30.20` | `66.0` / `73.14` | **`0.8418`** / `0.8273` | **`50/72`** (**`9.71`** / `20.43`) | `10/72` (`49.51` / `63.24`) | `108.0 s` | `2.160 s` / `10.800 s` |
@@ -56,7 +59,7 @@
 | **`P4_Prom_Fleet`** (`8 IBM + 16 IQM`) | `18` / `253` / `129,536` | `20.0` / `21.42` | `45.5` / `47.30` | `0.8136` / `0.7862` | `42/72` (`15.67` / `33.19`) | `13/72` (`59.02` / `71.61`) | `33.0s + 46.50cr` | `0.786s+1.107cr` *(trailed P3)* |
 
 ### Table 1B: `Phase 4B` Live Closed-Loop Iterative `SPSA` (`N = 92` Jobs, `1,874` PUBs, `1,715,200` Shots)
-| Policy Arm (`QPU`) | Jobs / PUBs / Shots `(↓)` | `2Q` / Depth `*(mean)*` `(↓)` | Learned `<= 25 mHa` (`med / mean` `mHa`) | HW-Conf `Sym-REM` `(↑)` | Strict Joint Success `(↑)` | Settled Spend `(↓)` | Cost / Strict Success `(↓)` |
+| Policy Arm (`QPU`) | Jobs / PUBs / Shots `(↓)` | `2Q` / Depth *(mean)* `(↓)` | Learned `<= 25 mHa` (`med / mean` `mHa`) | HW-Conf `Sym-REM` `(↑)` | Strict Joint Success `(↑)` | Settled Spend `(↓)` | Cost / Strict Success `(↓)` |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **`P4B_SABRE_IBM`** | **`11`** / `364` / `362,496` | `17.50` / `51.72` | `5/6` (`4.49` / `10.45`) | `5/6` (`23.40 s`) | `4/6` (`66.7%`) | `117.0 s` | `29.25 s` |
 | **`P4B_TKET_IBM`** | **`11`** / `364` / `362,496` | `15.83` / `47.11` | **`6/6` (`3.87` / `8.01`)** | **`6/6`** (`19.50 s`) | **`6/6` (`100.0%`)** | `117.0 s` | `19.50 s` |
