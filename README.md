@@ -1,19 +1,18 @@
-# Quantum Chemistry: Lower QPU Cost per Confirmed Molecular Energy
+# Quantum Chemistry: 52% to 60% Fewer Billed QPU Resources per Confirmed Molecular-Energy Result
 
-*Portfolio Hub: [Prometheus Quantum Overview](https://github.com/PrometheusDynamicsCanada/prometheus-quantum-overview) · [Complexity Atlas (H2, LiH & Linear H4)](https://github.com/PrometheusDynamicsCanada/prometheus-circuit-complexity-atlas) · [Full Capstone Report](reports/prometheus_phase4_capstone_evidence_release.md)*
+*Portfolio Hub: [Prometheus Quantum Overview](https://github.com/PrometheusDynamicsCanada/prometheus-quantum-overview) · [Complexity Atlas (8Q H4 & LiH Accuracy)](https://github.com/PrometheusDynamicsCanada/prometheus-circuit-complexity-atlas) · [Full Capstone Report](reports/prometheus_phase4_capstone_evidence_release.md)*
 
-Quantum chemistry workflows require many circuit evaluations across bond geometries and optimizer steps, quickly exhausting cloud hardware budgets. We tested whether combining multi-circuit packing and early measurement stopping with Prometheus compilation could reach confirmed molecular-energy accuracy (within 25.0 mHa in two independent hardware runs) at lower billed QPU cost.
+Prometheus makes a quantum chemistry budget go further by reducing the hardware resources needed for an independently confirmed molecular-energy result. Across 172 hardware jobs and 3.76 million measurement shots on 156-qubit IBM Fez and 54-qubit IQM Emerald, Prometheus reduced billed quantum hardware resources per confirmed result (<= 25.0 mHa target within the specified molecular models, confirmed across two independent hardware runs) by **52% to 60%** compared with the strongest tested Qiskit SABRE O3 or Quantinuum TKET baseline.
 
-Across 24 unseen 4-to-8-qubit molecular configurations and six live iterative SPSA optimizations on 156-qubit IBM Fez and 54-qubit IQM Emerald, Prometheus reduced billed hardware cost per confirmed result by 51.8% to 52.8% on IBM and by 58.9% to 60.0% on IQM compared strictly against the strongest tested baseline in each stage (Qiskit SABRE O3 or Quantinuum TKET). All 49 early-stopped runs passed independent confirmation, allowing chemistry teams to evaluate roughly twice as many configurations within the same QPU allocation.
+Using Prometheus's combined compilation, 3-way multi-circuit packing, and adaptive measurement workflow, billed cost per confirmed result on 24 unseen 4-to-8-qubit molecular configurations fell by **51.8% on IBM Fez** (1.04 s vs. 2.16 s TKET; 2.30 s SABRE) and **58.9% on IQM Emerald** (1.23 credits vs. 3.00 credits SABRE; 3.16 credits TKET). During live SPSA optimization guided by hardware measurements, billed cost fell **52.8% on IBM** (9.20 s vs. 19.50 s TKET) and **60.0% on IQM** (12.75 vs. 31.88 credits SABRE), with all 49 early-stopped runs passing independent confirmation.
 
-Savings measure provider-billed QPU seconds and credits on 4-to-8-qubit benchmark active spaces rather than wet-lab discovery or classical compute cost, and splitting single workloads across two clouds trailed single-processor execution (42 of 72 vs. 49 of 72 confirmed).
-
-This repository contains the results, optimizer trajectories, and offline verification tools from 172 completed hardware jobs (3.76 million measurement shots).
+- **Why this matters for R&D teams, IQM, and Amazon Braket:** Research teams can explore roughly twice as many molecular geometries or optimizer steps within an existing QPU budget. For **IQM**, this demonstrates a concrete way to help customers accomplish more per Resonance credit (measurable in credits per confirmed energy result). For **Amazon Braket** (where our [Rigetti and QuEra studies](https://github.com/PrometheusDynamicsCanada/prometheus-braket-validation) establish multi-window Braket execution), these IBM/IQM savings motivate evaluating a joint customer-facing chemistry workflow on Braket next.
+- **Scope & complementary H4 accuracy study:** This repository demonstrates *resource efficiency per confirmed result* on 4-to-8-qubit benchmark models (excluding classical CPU and wet-lab costs; single-processor runs beat dual-cloud splits 49/72 vs. 42/72). Separate correlated 8-qubit Linear H4 tests in [`prometheus-circuit-complexity-atlas`](https://github.com/PrometheusDynamicsCanada/prometheus-circuit-complexity-atlas) demonstrate *33.8% to 36.9% lower active-space energy error* on IQM Emerald.
 
 ![Prometheus reduced billed QPU resources by 52% to 59% vs. the best baseline](./figures/fig0_simple_chemistry_cost.png)
-*Summary figure: Billed IBM seconds and IQM credits per dual-run confirmed molecular-energy calculation across 24 unseen configurations (60 holdout jobs).*
+*Summary figure: Billed IBM seconds and IQM credits per dual-run confirmed <= 25.0 mHa molecular-energy calculation across 24 unseen configurations (60 holdout jobs; live SPSA saved 52.8% on IBM and 60.0% on IQM).*
 
-**[Read the detailed results](#detailed-results) · [Verify the data](#verify-the-data) · [Request an evaluation](https://prometheusdynamics.ca/connect/) · [Book a demonstration](mailto:william@prometheusdynamics.ca?subject=Prometheus%20Chemistry%20Evaluation)**
+**[Read the detailed results](#detailed-results) · [Verify the data](#verify-the-data) · [Evaluate your chemistry workload](https://prometheusdynamics.ca/connect/) · [Propose a joint chemistry pilot](mailto:william@prometheusdynamics.ca?subject=Joint%20Quantum%20Chemistry%20Pilot)**
 
 ---
 
